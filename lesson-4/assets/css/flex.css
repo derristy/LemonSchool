@@ -1,6 +1,5 @@
 .flex-container {
     display: flex;
-    align-items: center;
 }
 
 .flex-container__item {
