@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1455px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 .content__subtitle {
-    font-size: 20px;
+    font-size: 25px;
     margin: 20px 0;
     color: rgb(105, 55, 55);
 }

@@ -1,11 +1,13 @@
 .flex-container {
     display: flex;
+    background-color: #cacfc1;
 }
 
 .flex-container__item {
-    width: 125px;
-    background: rgb(158, 82, 82);
-    padding: 50px;
+    width: 100px;
+    background: rgb(168, 162, 162);
+    padding: 15px;
+    text-align: center;
     border: rgb(156, 236, 27) solid 5px;
     font-size: 30px;
     color: #fff;
@@ -35,6 +37,14 @@
     justify-content: space-between;
 }
 
+.flex-jc-sa {
+    justify-content: space-around;
+}
+
+.flex-jc-se {
+    justify-content: space-evenly;
+}
+
 .flex-jc-fs {
     justify-content: flex-start;
 }
@@ -47,10 +57,34 @@
     justify-content: center;
 }
 
+.flex-fd-c {
+    flex-direction: column;
+}
+
 .flex-fd-cr {
     flex-direction: column-reverse;
 }
 
+.flex-fd-r {
+    flex-direction: row;
+}
+
 .flex-fd-rr {
     flex-direction: row-reverse;
+}
+
+.flex-aa-c {
+    align-items: center;
+}
+
+.flex-as-fe {
+    align-self: flex-end;
+}
+
+.flex-as-fs {
+    align-self: flex-start;
+}
+
+.flex-grow2 {
+    flex-grow: 2;
 }
