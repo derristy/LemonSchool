@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(241, 239, 239);
+    font-family: 'Kaushan Script', cursive;
+}
+
+main {
+    margin-top: 140px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(172,117,243);
+    z-index: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-item {
+    padding: 16px 8px;
+}
+
+.navbar-item.active .navbar-link {
+    color: rgb(216, 240, 6);
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    transition: color .5s;
+}
+
+.navbar-link:hover {
+    color: rgb(216, 240, 6);
+}
+
+.content {
+    margin: 30px 0;
+}
+
+.content__title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #9ea10d;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.content__subtitle {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(7 33 223);
+}
+
+.content__description {
+    color: #756bad;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.pos-f {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.icon {
+    color: rgb(51,144,236);
+    font-size: 60px;
+}
