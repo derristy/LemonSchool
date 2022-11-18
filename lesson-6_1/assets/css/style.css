@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.nav-container {
+    margin: 33px auto 24px auto;
+    max-width: 1300px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-item {
+    margin-left: 40px;
+    color: #C59CB9;
+    transition: transform .5s;
+}
+
+.navbar-item:hover {
+    transform: scale(1.2);
+}
+
+.navbar-item:first-child {
+    margin-left: 0;
+}
+
+.navbar-item:last-child {
+    margin-left: 45px;
+}
+
+.navbar-link {
+    color: inherit;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.home {
+    position: relative;
+}
+
+.home-background-one {
+    background-color: #C9ADC6;
+    height: 458px;
+}
+
+.home-background-two {
+    background-color: #D6BBD3;
+    height: 359px;
+}
+
+.cube {
+    position:absolute;
+    display: flex;
+    bottom: 0;
+    right: 112px;
+}
+
+.cube-item {
+    width: 50px;
+    height: 50px;
+    background: #A78BA4;
+}
+
+.cube-item:last-child {
+    background-color: #B08EAD;
+}
+
+.home-content {
+    position: absolute;
+    top: 72px;
+    left: 178px;
+}
+
+.home-block {
+    color: #fff;
+    background-color: #B08EAD;
+    width: 425px;
+    height: 450px;
+    padding: 124px 111px 124px 40px;
+}
+
+.home-block#home {
+    position: absolute;
+    top: 50%;
+    right: -70%;
+    transform: translate(-70%, -50%);
+}
+
+.home-block#about-two {
+    position: absolute;
+    top: 50%;
+    left: -347px;
+    z-index: 1;
+    transform: translate(0, -50%);
+}
+
+.home-new {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.home-title {
+    width: 280px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 22px;
+}
+
+.home-title#about-two {
+    width: 319px;
+}
+
+.home-button {
+    font-family: 'Roboto';
+    background: none;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: border .2s;
+}
+
+.home-button:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 75px 0;
+}
+
+.about-title {
+    margin-bottom: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.about-subtitle {
+    width: 747px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #5F4D5D;
+    margin-bottom: 17px;
+}
+
+.about-button {
+    background: none;
+    border: #B99BB6 solid 2px;
+    padding: 16px 29px 14px 29px;
+    margin-bottom: 64px;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    transition: color .5s, background .5s;
+}
+
+.about-button:hover {
+    background: #d8a7d3;
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1175px;
+}
+
+.card-item {
+    background-color: #CEB3CB;
+}
+
+.card-content {
+    padding: 23px 0 60px 23px;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.card-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.about-two {
+    background: #CEB3CB;
+    height: 825px;
+    position: relative;
+}
+
+.about-two__img-block {
+    position: absolute;
+    top: 75px;
+    left: 40%;
+}
+
+.about-two__img {
+    position: relative;
+    z-index: 2;
+}
+
+.experience-container {
+    width: 100%;
+    max-width: 1265px;
+    margin: 0 auto;
+}
+
+.experience-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D7B7D4;
+    padding: 39px 0 40px 0;
+}
+
+.experience-row__item {
+    width: 47%;
+}
+
+.experience-row:first-child {
+    margin-top: 75px;
+}
+
+.experience-row:last-child {
+    border-bottom: 0;
+}
+
+.experience-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin-bottom: 10px;
+}
+
+.about-button#experience {
+    margin-top: 10px;
+}
