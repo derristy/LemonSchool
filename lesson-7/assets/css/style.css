@@ -59,7 +59,7 @@
     position: relative;
 }
 
-.product-container.reverse {
+.flex-reverse {
     flex-direction: row-reverse;
 }
 
@@ -73,7 +73,7 @@
     color: #fff;
 }
 
-.product-container:before {
+.product-container.cube-decoration:before {
     position: absolute;
     bottom: 0;
     right: 50px;
@@ -84,7 +84,7 @@
     background: #A78BA4;
 }
 
-.product-container:after {
+.product-container.cube-decoration:after {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -221,4 +221,76 @@
     line-height: 30px;
     padding: 0;
     color: #FFFFFF;
+}
+
+.product-container.two {
+    width: 100%;
+    max-width: 938px;
+    padding: 75px 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.product-card.two {
+    margin-left: 0;
+    margin-right: -58px;
+    padding-right: 58px;
+}
+
+.product-img_wrapper.two {
+    z-index: 2;
+}
+
+.product.two {
+    background: #CEB3CB;
+    min-height: 825px;
+}
+
+.experience-container {
+    width: 100%;
+    max-width: 1265px;
+    margin: 0 auto;
+}
+
+.experience-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D7B7D4;
+    padding: 39px 0 40px 0;
+}
+
+.experience-row__item {
+    width: 47%;
+}
+
+.experience-row:first-child {
+    margin-top: 75px;
+}
+
+.experience-row:last-child {
+    border-bottom: 0;
+}
+
+.experience-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-bottom: 10px;
+}
+
+.experience-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin-bottom: 10px;
+}
+
+.about-one__button#experience {
+    margin-top: 10px;
 }
