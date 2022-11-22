@@ -59,6 +59,10 @@
     position: relative;
 }
 
+.product-container.reverse {
+    flex-direction: row-reverse;
+}
+
 .product-card {
     padding: 124px 111px 119px 40px;
     width: 425px;
@@ -171,7 +175,9 @@
 
 .about-one__button {
     background: none;
-    border: none;
+    padding: 16px 29px 14px 29px;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
     font-family: 'Roboto';
     font-size: 11px;
     line-height: 15px;
@@ -179,6 +185,12 @@
     text-transform: uppercase;
     color: #B99BB6;
     margin-bottom: 64px;
+    transition: background .4s, color .4s;
+}
+
+.about-one__button:hover {
+    background: #B99BB6; 
+    color: #fff;
 }
 
 .about-one__content {
@@ -186,7 +198,27 @@
     max-width: 747px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     text-align: center;
     flex-direction: column;
+    align-items: center;
+}
+
+.about-one__card-content {
+    padding: 23px 0 24px 23px;
+}
+
+.about-one__card-title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.about-one__card-button {
+    background: 0;
+    border: 0;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0;
+    color: #FFFFFF;
 }
