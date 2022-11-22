@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 1165px;
+    padding: 33px 0 24px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-left: 40px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B08EAD;
+    transition: transform .5s;
+}
+
+.nav-item:hover {
+    transform: scale(1.2);
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+
+.nav-item:last-child {
+    margin-left: 45px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.product {
+    background: linear-gradient(to bottom, #C9ADC6 60%, #D6BBD3 40%);
+    min-height: 817px;
+}
+
+.product-container {
+    width: 100%;
+    max-width: 1149px;
+    padding: 72px 0 70px 0;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.product-card {
+    padding: 124px 111px 119px 40px;
+    width: 425px;
+    height: 450px;
+    background: #B08EAD;
+    margin-top: 110px;
+    margin-left: -127px;
+    color: #fff;
+}
+
+.product-container:before {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #A78BA4;
+}
+
+.product-container:after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #B08EAD;
+}
+
+.product-label {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 44px;
+    line-height: 55px;
+    margin-bottom: 22px;
+}
+
+.product-button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.product-button:after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 2px;
+    margin-top: 13px;
+    background: #fff;
+    transition: width .5s;
+}
+
+.product-button:hover::after {
+    width: 100%;
+}
