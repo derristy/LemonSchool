@@ -299,3 +299,36 @@
 .second-product__container--third {
     max-width: 932px;
 }
+
+.fourth-product__container {
+    width: 100%;
+    max-width: 1183px;
+    padding: 75px 0 131px 0;
+    margin: 0 auto;
+}
+
+.row--fourth-product {
+    margin-bottom: 54px;
+}
+
+.row--fourth-product:last-child {
+    margin-bottom: 0;
+}
+
+.fourth-product__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #5F4D5D;
+    margin-top: 9px;
+}
+
+.fourth-product__price {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #B0B0B0;
+    margin-top: 7px;
+}
