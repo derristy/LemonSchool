@@ -218,3 +218,28 @@
     line-height: 30px;
     color: #FFFFFF;
 }
+
+.second-product {
+    background: #CEB3CB;
+    height: 825px;
+}
+
+.second-product__container {
+    width: 100%;
+    max-width: 938px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 75px 0;
+}
+
+.product-info--second-product {
+    width: 440px;
+    margin-top: 110px;
+    margin-right: -42px;
+    padding-left: 63px;
+}
+
+.second-product__img-wrapper {
+    z-index: 2;
+}
