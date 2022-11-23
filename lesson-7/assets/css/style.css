@@ -229,7 +229,6 @@
     max-width: 938px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row-reverse;
     padding: 75px 0;
 }
 
@@ -289,4 +288,14 @@
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.product-info--third-product {
+    margin-top: 110px;
+    margin-left: -33px;
+    padding-left: 44px;
+}
+
+.second-product__container--third {
+    max-width: 932px;
 }
