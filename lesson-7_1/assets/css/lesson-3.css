@@ -1,0 +1,67 @@
+*::selection {
+    background: rgb(28, 196, 51);
+    color: rgb(139, 235, 15);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-it-works__title {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 157%;
+    margin-bottom: 48px;
+}
+
+.column {
+    width: 49%;
+}
+
+.column__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+    margin-bottom: 24px;
+}
+
+.column__title::first-letter {
+    color: rgb(0, 238, 255);
+}
+
+.column__subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+
+.column__subtitle::first-line {
+    color: rgb(243, 6, 164);
+}
+
+.orange {
+    color: orange
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: rgba(255, 66, 61, 0.75);;
+}
+
+.column--how-it-works {
+    width: 400px;
+}
+
+.column--two {
+    margin-top: 201px;
+}
+
+.column--three {
+    margin-top: 44px;
+}

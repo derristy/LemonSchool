@@ -1,0 +1,18 @@
+.table {
+    background: rgb(219, 217, 217);
+    font-size: 20px;
+}
+
+.th {
+    font-weight: 700;
+    background: rgb(197, 189, 189);
+}
+
+.th, .td {
+    border: rgb(172, 129, 129) solid 2px;
+    padding: 5px;
+}
+
+.td[colspan] {
+    text-align: center;
+}

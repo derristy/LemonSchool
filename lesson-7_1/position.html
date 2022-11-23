@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position | Lesson-6</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/position.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/brand.png" alt="" class="navbar-brand__img">
+                </a>
+                
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="table.html" class="navbar-link">Table</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="flex.html" class="navbar-link">Flex</a>
+                    </li>
+                    <li class="navbar-item active">
+                        <a href="position.html" class="navbar-link">Position</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="content">
+                <h1 class="content__title">Position</h1>
+
+                <div class="position">
+                    <h3 class="content__subtitle">position: static</h3>
+                    <p class="content__description">The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default value.</p>
+
+                    <div class="row">
+                        <div class="row__item pos-s">static</div>
+                    </div>
+                </div>
+
+                <div class="position">
+                    <h3 class="content__subtitle">position: relative</h3>
+                    <p class="content__description">The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.</p>
+
+                    <div class="row">
+                        <div class="row__item pos-r">relative</div>
+                        <div class="row__item pos-r pos-r-offset">relative</div>
+                        <div class="row__item pos-r">relative</div>
+                    </div>
+                </div>
+
+                <div class="position">
+                    <h3 class="content__subtitle">position: absolute</h3>
+                    <p class="content__description">The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.</p>
+
+                    <div class="row pos-r">
+                        <div class="row__item">absolute</div>
+                        <div class="row__item">absolute</div>
+                        <div class="row__item pos-a pos-a-offset">
+                            absolute
+                            <div class="pos-a pos-a-child">absolute child</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position" id="sticky">
+                    <h3 class="content__subtitle">position: sticky</h3>
+                    <p class="content__description">The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.</p>
+
+                    <ul class="sticky-row">
+                        <li class="sticky-item">Afghanistan</li>
+                        <li class="sticky-item">Albania</li>
+                        <li class="sticky-item">Algeria</li>
+                        <li class="sticky-item">Andorra</li>
+                        <li class="sticky-item">Angola</li>
+                        <li class="sticky-item sticky">Antigua and Barbuda</li>
+                        <li class="sticky-item">Argentina</li>
+                        <li class="sticky-item">Armenia</li>
+                        <li class="sticky-item">Australia</li>
+                        <li class="sticky-item">Austria</li>
+                        <li class="sticky-item">Azerbaijan</li>
+                        <li class="sticky-item">Bahamas</li>
+                        <li class="sticky-item sticky">Bahrain</li>
+                        <li class="sticky-item">Bangladesh</li>
+                        <li class="sticky-item">Barbados</li>
+                        <li class="sticky-item">Belarus</li>
+                        <li class="sticky-item">Belgium</li>
+                        <li class="sticky-item">Belize</li>
+                        <li class="sticky-item">Benin</li>
+                        <li class="sticky-item">Bhutan</li>
+                        <li class="sticky-item">Bolivia</li>
+                        <li class="sticky-item">Bosnia and Herzegovina</li>
+                        <li class="sticky-item">Botswana</li>
+                        <li class="sticky-item">Brazil</li>
+                        <li class="sticky-item">Brunei</li>
+                        <li class="sticky-item sticky">Bulgaria</li>
+                        <li class="sticky-item">Burkina Faso</li>
+                        <li class="sticky-item">Burundi</li>
+                        <li class="sticky-item">Côte d'Ivoire</li>
+                        <li class="sticky-item">Cabo Verde</li>
+                        <li class="sticky-item">Cambodia</li>
+                        <li class="sticky-item">Cameroon</li>
+                        <li class="sticky-item">Canada</li>
+                        <li class="sticky-item sticky">Central African Republic</li>
+                        <li class="sticky-item">Chad</li>
+                        <li class="sticky-item">Chile</li>
+                        <li class="sticky-item">China</li>
+                        <li class="sticky-item">Colombia</li>
+                        <li class="sticky-item">Comoros</li>
+                        <li class="sticky-item">Congo (Congo-Brazzaville)</li>
+                        <li class="sticky-item">Costa Rica</li>
+                        <li class="sticky-item">Croatia</li>
+                        <li class="sticky-item">Cuba</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="pos-f">
+            <a href="https://t.me/derristy" target="_blank">
+                <i class="icon fab fa-telegram-plane"></i>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
