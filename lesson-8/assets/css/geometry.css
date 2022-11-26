@@ -39,9 +39,9 @@
     border-right: 50px solid transparent;
 }
 
-.oval {
-    width: 200px;
-    height: 100px;
-    background: var(--cyan);
-    border-radius: 100px / 50px;
+.parallelogram {
+	width: 150px;
+	height: 100px;
+    transform: skew(20deg);
+	background: var(--cyan);
 }
