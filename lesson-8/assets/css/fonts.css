@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap');
+
+:root {
+    --yellow: #FFFF00;
+    --orange: #FF6F00;
+    --blue: #651FFF;
+    --red: #D50000;
+    --green: #1B5E20;
+    --pink: #C2185B;
+    --padding: 0 0 15px 0;
+    --font-size: 25px;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-display: swap;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+    padding: var(--padding);
+}
+
+.advent-pro {
+    font-family: 'Advent Pro', sans-serif;
+    padding: var(--padding);
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    padding: var(--padding);
+}
+
+.fw-100 {
+    font-weight: 100;
+    color: var(--yellow);
+    font-size: var(--font-size);
+}
+
+.fw-200 {
+    font-weight: 200;
+    color: var(--orange);
+    font-size: var(--font-size);
+}
+
+.fw-300 {
+    font-weight: 300;
+    color: var(--blue);
+    font-size: var(--font-size);
+}
+
+.fw-400 {
+    font-weight: 400;
+    color: var(--red);
+    font-size: var(--font-size);
+}
+
+.fw-500 {
+    font-weight: 500;
+    color: var(--green);
+    font-size: var(--font-size);
+}
+
+.fw-600 {
+    font-weight: 600;
+    color: var(--pink);
+    font-size: var(--font-size);
+}
+
+.fw-700 {
+    font-weight: 700;
+    font-size: var(--font-size);
+}
+
+.fw-800 {
+    font-weight: 800;
+    font-size: var(--font-size);
+}
+
+.fw-900 {
+    font-weight: 900;
+    font-size: var(--font-size);
+}
