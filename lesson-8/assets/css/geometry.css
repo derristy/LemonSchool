@@ -1,0 +1,47 @@
+:root {
+    --red: #C62828;
+    --pink: #C2185B;
+    --purple: #7B1FA2;
+    --cyan: #0097A7;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.row__item {
+    width: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: var(--red);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: var(--pink);
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid var(--purple);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background: var(--cyan);
+    border-radius: 100px / 50px;
+}
