@@ -1,0 +1,28 @@
+
+.tags-table__item {
+    display: flex;
+    border-bottom: 2px solid #fff;
+}
+
+.tags-table__item:last-child {
+    border-bottom: 0;
+}
+
+.tags-table__name, .tags-table__description {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.tags-table__name {
+    background: #00796B;
+    width: 400px;
+}
+
+.tags-table__description {
+    background: #AFB42B;
+    width: 100%;
+}
