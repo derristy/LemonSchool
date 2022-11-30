@@ -1,0 +1,42 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(172,117,243);
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-item {
+    padding: 16px 8px;
+}
+
+.navbar-item.active .navbar-link {
+    color: rgb(216, 240, 6);
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    transition: color .5s;
+}
+
+.navbar-link:hover {
+    color: rgb(216, 240, 6);
+}

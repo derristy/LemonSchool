@@ -9,11 +9,11 @@
     height: 400px;
 }
 
-.row {
+.position-row {
     display: flex;
 }
 
-.row__item {
+.position-row__item {
     background-color: rgb(42, 197, 218);
     border: 3px dashed #fff;
     padding: 30px;
