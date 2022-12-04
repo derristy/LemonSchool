@@ -6,6 +6,25 @@
     --bg-color-warning: #FFA000;
     --bg-color-info: #9E9E9E;
     --color-white: #fff;
+    --accordion-color: #0B305D;
+}
+
+body {
+    background: #F5F5F5;;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.ttf");
+    font-weight: 600;
+    font-display: swap;
 }
 
 .rotate-spinner {
@@ -63,6 +82,11 @@
     color: var(--color-white);
 }
 
+.btn {
+    padding: 15px;
+    border-radius: 10px 0 10px 0;
+}
+
 .btn-primary {
     --bs-btn-bg: var(--bg-color-primary);
     --bs-btn-border-color: var(--bg-color-primary);
@@ -91,4 +115,130 @@
 .btn-info {
     --bs-btn-bg: var(--bg-color-info);
     --bs-btn-border-color: var(--bg-color-info);
+}
+
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs .nav-link {
+    border: 0;
+    padding: 24px 34px;
+    border-radius: 12px;
+    margin-right: 33px;
+    background: var(--color-white);
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    color: #0B305D;
+}
+
+.nav-tabs .nav-link:last-child {
+    margin-right: 0;
+}
+
+.nav-tabs .nav-link.active {
+    background: #D8E5FD;
+}
+
+.nav-tabs, .tab-content {
+    font-family: "Inter", sans-serif;
+}
+
+.tab-content {
+    color: #626874;
+    margin-top: 40px;
+    background: var(--color-white);
+    padding: 22px 34px;
+    border-radius: 12px;
+}
+
+.accordion {
+    font-family: "Inter", sans-serif;
+}
+
+.accordion-item {
+    border: 0;
+    margin-bottom: 24px;
+    background: none;
+}
+
+.accordion-button::after {
+    background-image: url(../images/accordion-open.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/accordion-close.png);
+}
+
+.accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 12px;
+    color: var(--accordion-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-item:last-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 12px;
+    color: var(--accordion-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 12px;
+    color: var(--accordion-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-item .accordion-button {
+    border-radius: 12px;
+    color: var(--accordion-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-body {
+    margin-top: 24px;
+    background: var(--color-white);
+    border-radius: 12px;
+}
+
+.nth-child-odd .child-item:nth-child(odd) {
+    background: red !important;
+}
+
+.nth-child-even .child-item:nth-child(even) {
+    background: red !important;
+}
+
+.first-child .child-item:first-child {
+    background: red !important;
+}
+
+.last-child .child-item:last-child {
+    background: red !important;
+}
+
+.nth-child-seven .child-item:nth-child(7){
+    background: red !important;
+}
+
+.nth-child-n-plus-seven .child-item:nth-child(n+7){
+    background: red !important;
+}
+
+.nth-child-three-n-plus-four .child-item:nth-child(3n+4){
+    background: red !important;
 }
