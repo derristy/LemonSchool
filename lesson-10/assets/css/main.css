@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFCDD2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.content {
+    margin: 30px 0;
+}
+
+.content__title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content__subtitle {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(7 33 223);
+}
+
+.content__description {
+    color: #756bad;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.pos-f {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.icon {
+    color: rgb(51,144,236);
+    font-size: 60px;
+}

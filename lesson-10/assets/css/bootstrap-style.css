@@ -1,0 +1,94 @@
+:root {
+    --bg-color-primary: #0288D1;
+    --bg-color-secondary: #F06292;
+    --bg-color-success: #2E7D32;
+    --bg-color-danger: #D50000;
+    --bg-color-warning: #FFA000;
+    --bg-color-info: #9E9E9E;
+    --color-white: #fff;
+}
+
+.rotate-spinner {
+    animation: 1s linear infinite rotate-spinner;
+    width: 50px;
+    display: inline-block
+}
+
+.rotate-spinner__img {
+    width: 50px;
+}
+  
+@keyframes rotate-spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.alert-primary {
+    --bs-alert-bg: var(--bg-color-primary);
+    --bs-alert-border-color: var(--bg-color-primary);
+    color: var(--color-white);
+}
+
+.alert-secondary {
+    --bs-alert-bg: var(--bg-color-secondary);
+    --bs-alert-border-color: var(--bg-color-secondary);
+    color: var(--color-white);
+}
+
+.alert-success {
+    --bs-alert-bg: var(--bg-color-success);
+    --bs-alert-border-color: var(--bg-color-success);
+    color: var(--color-white);
+}
+
+.alert-danger {
+    --bs-alert-bg: var(--bg-color-danger);
+    --bs-alert-border-color: var(--bg-color-danger);
+    color: var(--color-white);
+}
+
+.alert-warning {
+    --bs-alert-bg: var(--bg-color-warning);
+    --bs-alert-border-color: var(--bg-color-warning);
+    color: var(--color-white);
+}
+
+.alert-info {
+    --bs-alert-bg: var(--bg-color-info);
+    --bs-alert-border-color: var(--bg-color-info);
+    color: var(--color-white);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bg-color-primary);
+    --bs-btn-border-color: var(--bg-color-primary);
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--bg-color-secondary);
+    --bs-btn-border-color: var(--bg-color-secondary);
+}
+
+.btn-success {
+    --bs-btn-bg: var(--bg-color-success);
+    --bs-btn-border-color: var(--bg-color-success);
+}
+
+.btn-danger {
+    --bs-btn-bg: var(--bg-color-danger);
+    --bs-btn-border-color: var(--bg-color-danger);
+}
+
+.btn-warning {
+    --bs-btn-bg: var(--bg-color-warning);
+    --bs-btn-border-color: var(--bg-color-warning);
+}
+
+.btn-info {
+    --bs-btn-bg: var(--bg-color-info);
+    --bs-btn-border-color: var(--bg-color-info);
+}
