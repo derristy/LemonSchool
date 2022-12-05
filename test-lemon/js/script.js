@@ -1,11 +1,11 @@
-$("[data-url]").each(function(){
+$("[data-hw-url]").each(function(){
     let element = $(this);
 
     $.ajax({
         beforeSend: function(){
             element.html("<div class=\"spinner-border mt-3\" role=\"status\"><span class=\"visually-hidden\">Loading...</span></div>");
         },
-        url: element.attr("data-url"),
+        url: element.attr("data-hw-url"),
         dataType: "html",
         cache: false,
         success: function(data){
