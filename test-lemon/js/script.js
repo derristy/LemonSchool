@@ -1,6 +1,12 @@
-load_card("homework-rostislav_suslov", "HOMEWORK/dev-RostislavSuslov/user.html");
-load_card("homework-dmitry_shumskiy", "HOMEWORK/dev-DmitryShumskiy/user.html");
-load_card("homework-kirill_shkaev", "HOMEWORK/dev-KirillShkaev/user.html");
+const user_cards = {
+    "homework-rostislav_suslov" : "HOMEWORK/dev-RostislavSuslov/user.html",
+    "homework-dmitry_shumskiy" : "HOMEWORK/dev-DmitryShumskiy/user.html",
+    "homework-kirill_shkaev" : "HOMEWORK/dev-KirillShkaev/user.html",
+};
+  
+for (const [key, value] of Object.entries(user_cards)) {
+    load_card(key, value);
+}
 
 function load_card(user_id, user_url){
 
