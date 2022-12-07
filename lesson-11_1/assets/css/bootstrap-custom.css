@@ -65,3 +65,7 @@
     color: #0B305D;
     padding: 24px 30px 21px 34px;
 }
+
+.nav-tabs-custom .nav-tabs {
+    margin-bottom: 40px;
+}
