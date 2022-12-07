@@ -97,6 +97,18 @@
     box-shadow: 0px 6px 24px rgba(11, 48, 93, 0.2);
 }
 
+.nav-tabs-custom .nav-tabs .nav-link:hover {
+    background: #b4c6e9;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:focus {
+    border: 3px solid #b4c6e9;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:active {
+    background: #747e92;
+}
+
 .nav-tabs-custom .nav-tabs {
     border-bottom: 0;
 }
