@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.ttf");
+    font-weight: 600;
+    font-display: swap;
+}
+
+.bg-custom {
+    background: #F5F5F5;
+}
+
+.bg-custom-blue {
+    background: rgb(172,117,243);
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.accordion-custom .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/accordion-close.svg");
+}
+
+.accordion-custom .accordion-button::after {
+    background-image: url("../images/accordion-open.svg");
+}
+
+.accordion-custom .accordion-item {
+    margin-bottom: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 6px 24px rgba(11, 48, 93, 0.2);
+}
+
+.accordion-custom .accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-custom .accordion-button:not(.collapsed) {
+    background: none;
+    box-shadow: none;
+}
+
+.accordion-custom .accordion-body {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 84px 35px 34px;
+}
+
+.accordion-custom .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-custom .accordion-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B305D;
+    padding: 24px 30px 21px 34px;
+}
