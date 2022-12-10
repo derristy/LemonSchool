@@ -121,3 +121,26 @@
     line-height: 24px;
     padding: 22px 37px 18px 37px;
 }
+
+.bg-parallax {
+    background-image: url("../images/boat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-custom input {
+    transition: background .5s;
+}
+
+.form-custom input:focus-visible {
+    background: rgb(82, 155, 145);
+}
+
+.form-custom input:hover {
+    background: #91c5a5;
+}
+
+.form-custom input:active {
+    background: #37445e;
+}
