@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.ttf");
+    font-weight: 600;
+    font-display: swap;
+}
+
+.bg-custom {
+    background: #F5F5F5;
+}
+
+.bg-custom-blue {
+    background: rgb(172,117,243);
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.accordion-custom .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/accordion-close.svg");
+}
+
+.accordion-custom .accordion-button::after {
+    background-image: url("../images/accordion-open.svg");
+}
+
+.accordion-custom .accordion-item {
+    margin-bottom: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.accordion-custom .accordion-item:has(.collapse.show) {
+    box-shadow: 0px 6px 24px rgba(11, 48, 93, 0.2);
+}
+
+.accordion-custom .accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-custom .accordion-button:not(.collapsed) {
+    background: none;
+    box-shadow: none;
+}
+
+.accordion-custom .accordion-body {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 84px 35px 34px;
+}
+
+.accordion-custom .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-custom .accordion-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B305D;
+    padding: 24px 30px 21px 34px;
+}
+
+.nav-tabs-custom .nav-tabs {
+    margin-bottom: 30px;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link {
+    border: 0;
+    border-radius: 12px;
+    background: #fff;
+    padding: 24px 45px 24px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B305D;
+    margin-bottom: 10px;
+}
+
+.nav-tabs-custom .nav-item {
+    margin-right: 33px;
+}
+
+.nav-tabs-custom .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link.active {
+    background: #D8E5FD;
+    box-shadow: 0px 6px 24px rgba(11, 48, 93, 0.2);
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:hover {
+    background: #b4c6e9;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:focus {
+    border: 3px solid #b4c6e9;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:active {
+    background: #747e92;
+}
+
+.nav-tabs-custom .nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs-custom .tab-pane { 
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 22px 37px 18px 37px;
+}
