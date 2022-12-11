@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body class="bg-custom">
@@ -68,11 +69,108 @@
                 </div>
             </form>
         </div>
+
+        <div class="bg-parallax p-3 mt-5">
+            <form action="#" class="form-custom" method="POST">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <label for="nice-select" class="text-light fs-3 fw-bold mb-2">Nice-select:</label>
+                        <select class="w-100" type="text" id="nice-select" name="nice-select">
+                            <option value="apache">Apache</option>
+                            <option value="nginx">Nginx</option>
+                            <option value="litespeed">Litespeed</option>
+                            <option value="lighttpd">Lighttpd</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="textarea" class="text-light fs-3 fw-bold mb-2">Textarea:</label>
+                        <textarea class="w-100" name="" id="textarea" cols="30" rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus iusto dolor natus ad harum commodi eaque, in veritatis quidem accusantium rerum minima officia? Unde amet consectetur aut, voluptatum modi deserunt quod corporis, tempora veniam eum obcaecati numquam illo autem ducimus blanditiis, voluptates quibusdam officiis. Nam eum et iste! Libero quis, odit, vitae corporis qui officiis esse omnis repudiandae asperiores magnam ea laudantium labore, quos rerum facilis numquam voluptatem. Quis tempora quia unde cumque delectus nostrum quasi in, dolorem nam! Amet ea ipsa voluptatem earum voluptas tenetur totam vitae. Amet magnam error sapiente fugiat natus necessitatibus facilis in est doloremque laborum?</textarea>
+                    </div>
+                    <div class="col-12 mb-3 text-light fs-5">
+                        <p class="text-light fs-3 fw-bold mb-2">Checkbox:</p>
+                        <label for="checkbox-apache">Apache</label>
+                        <input id="checkbox-apache" type="checkbox">
+
+                        <label for="checkbox-nginx">Nginx</label>
+                        <input id="checkbox-nginx" type="checkbox">
+
+                        <label for="checkbox-litespeed">Litespeed</label>
+                        <input id="checkbox-litespeed" type="checkbox">
+                    </div>
+                    <div class="col-12 mb-3 text-light fs-5">
+                        <p class="text-light fs-3 fw-bold mb-2">Radio:</p>
+                        <label for="radio-apache">Apache</label>
+                        <input id="radio-apache" name="webserver" type="radio">
+
+                        <label for="radio-nginx">Nginx</label>
+                        <input id="radio-nginx" name="webserver" type="radio">
+
+                        <label for="radio-litespeed">Litespeed</label>
+                        <input id="radio-litespeed" name="webserver" type="radio">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-color" class="text-light fs-3 fw-bold mb-2">Color:</label>
+                        <input type="color" class="d-block" id="label-color">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-date" class="text-light fs-3 fw-bold mb-2">Date:</label>
+                        <input type="date" id="label-date" class="d-block">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-email" class="text-light fs-3 fw-bold mb-2">Email:</label>
+                        <input type="email" id="label-email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-password" class="text-light fs-3 fw-bold mb-2">Password:</label>
+                        <input type="password" id="label-password" class="form-control" placeholder="Enter your password">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-image" class="text-light fs-3 fw-bold mb-2">Image:</label>
+                        <input type="image" id="label-image" class="d-block" src="assets/images/brand.png">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-number" class="text-light fs-3 fw-bold mb-2">Number:</label>
+                        <input type="number" id="label-number" class="form-control" placeholder="Enter number">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-range" class="text-light fs-3 fw-bold mb-2">Range:</label>
+                        <input type="range" id="label-range" class="d-block">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-search" class="text-light fs-3 fw-bold mb-2">Search:</label>
+                        <input type="search" id="label-search" class="d-block" placeholder="Search form">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-time" class="text-light fs-3 fw-bold mb-2">Time:</label>
+                        <input type="time" id="label-time" class="d-block">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-url" class="text-light fs-3 fw-bold mb-2">URL:</label>
+                        <input type="url" id="label-url" class="d-block" placeholder="https://ls.derristy.ml">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-file" class="text-light fs-3 fw-bold mb-2">File:</label>
+                        <input type="file" id="label-file" class="d-block">
+                    </div>
+                    <div class="col-12 mb-5">
+                        <label for="label-week" class="text-light fs-3 fw-bold mb-2">Week:</label>
+                        <input type="week" id="label-week" class="d-block">
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="submit" class="btn btn-primary" value="Submit button">
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="reset" class="btn btn-warning" value="Reset button">
+                </div>
+            </form>
+        </div>
     </div>
     
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="assets/js/jquery-3.6.1.js"></script>
     <script src="assets/js/jquery.mask.js"></script>
+    <script src="assets/js/jquery.nice-select.js"></script>
     <script src="assets/js/countdown.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
