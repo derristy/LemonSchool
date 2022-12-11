@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/form.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body class="bg-custom">
@@ -70,7 +71,7 @@
             </form>
         </div>
 
-        <div class="bg-parallax p-3 mt-5">
+        <div class="bg-parallax p-3 mt-5 mb-5">
             <form action="#" class="form-custom" method="POST">
                 <div class="row">
                     <div class="col-12 mb-3">
@@ -149,8 +150,12 @@
                         <input type="url" id="label-url" class="d-block" placeholder="https://ls.derristy.ml">
                     </div>
                     <div class="col-12 mb-3">
-                        <label for="label-file" class="text-light fs-3 fw-bold mb-2">File:</label>
-                        <input type="file" id="label-file" class="d-block">
+                        <label for="file-upload-input" class="text-light fs-3 fw-bold mb-2">File:</label>
+                        <div class="d-flex">
+                            <button class="file-upload-btn" type="button">Choose file</button>
+                            <div class="file-upload-name">No file chosen</div>
+                            <input type="file" id="file-upload-input">
+                        </div>
                     </div>
                     <div class="col-12 mb-5">
                         <label for="label-week" class="text-light fs-3 fw-bold mb-2">Week:</label>
@@ -173,5 +178,6 @@
     <script src="assets/js/jquery.nice-select.js"></script>
     <script src="assets/js/countdown.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/form.js"></script>
 </body>
 </html>

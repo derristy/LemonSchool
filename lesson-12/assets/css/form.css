@@ -1,0 +1,19 @@
+#file-upload-input {
+    display: none;
+}
+
+.file-upload-btn {
+    background: #3F51B5;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+}
+
+.file-upload-name {
+    border-radius: 0 5px 5px 0;
+    background: #FFEB3B;
+    padding: 10px;
+    font-size: 15px;
+}
