@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../fonts/CormorantGaramond-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+body {
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+.mariela--navbar .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.mariela--navbar {
+    padding: 33px 0 24px 0;
+}
+
+.mariela--navbar .nav-link {
+    color: #B08EAD;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.mariela--navbar .nav-item {
+    margin-right: 40px;
+}
+
+.mariela--navbar .mariela--icon.nav-item {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.mariela--first-screen {
+    height: 817px;
+    background: linear-gradient(to bottom, #C9ADC6 55%, #D6BBD3 45%);
+}
+
+.mariela--first-screen__container {
+    width: 100%;
+    max-width: 1149px;
+    margin: 0 auto;
+    padding-top: 72px;
+}
+
+.mariela--product-card {
+    background: #B08EAD;
+    margin-top: 110px;
+    padding: 124px 105px 231px 40px;
+    width: 425px;
+    height: 450px;
+    color: #fff;
+    margin-left: -127px;
+}
+
+.mariela--product-label {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.mariela--product-title {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 22px;
+}
+
+.mariela--product-btn {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    color: inherit;
+}
+
+.mariela--product-btn:after {
+    display: flex;
+    margin-top: 11px;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    content: "";
+    transition: width .5s;
+}
+
+.mariela--product-btn:hover::after {
+    width: 100%;
+}
