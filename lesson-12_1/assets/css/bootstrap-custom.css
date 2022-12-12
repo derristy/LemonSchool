@@ -48,7 +48,28 @@ body {
     width: 100%;
     max-width: 1149px;
     margin: 0 auto;
-    padding-top: 72px;
+    padding: 72px 0 70px;
+    position: relative;
+}
+
+.mariela--first-screen__cube-decoration::before {
+    width: 50px;
+    height: 50px;
+    content: "";
+    background: #A78BA4;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.mariela--first-screen__cube-decoration::after {
+    width: 50px;
+    height: 50px;
+    content: "";
+    background: #B08EAD;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .mariela--product-card {
@@ -87,6 +108,7 @@ body {
     border: none;
     background: none;
     color: inherit;
+    padding: 0;
 }
 
 .mariela--product-btn:after {
@@ -101,4 +123,75 @@ body {
 
 .mariela--product-btn:hover::after {
     width: 100%;
+}
+
+.mariela--first-about {
+    margin: 75px 0;
+}
+
+.mariela--first-about__container {
+    width: 100%;
+    max-width: 1178px;
+    margin: 0 auto;
+}
+
+.mariela--about-card {
+    background: #CEB3CB;
+    max-width: 368px;
+}
+
+.mariela--about-title {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-bottom: 13px;
+}
+
+.mariela--about-description {
+    max-width: 747px;
+    font-size: 26px;
+    line-height: 38px;
+    margin: 0 auto;
+    color: #5F4D5D;
+    margin-bottom: 17px;
+}
+
+.mariela--about-btn {
+    display: block;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    font-family: 'Roboto';
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    padding: 16px 29px 14px 29px;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.mariela--about-card__wrapper {
+    padding: 23px 0 24px 23px;
+}
+
+.mariela--about-card__title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.mariela--about-card__btn {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
