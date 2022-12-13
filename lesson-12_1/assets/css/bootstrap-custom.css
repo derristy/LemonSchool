@@ -250,3 +250,24 @@ body {
     color: #5F4D5D;
     max-width: 481px;
 }
+
+.mariela--third-screen {
+    height: 825px;
+    background: #CEB3CB;
+    padding: 75px 0;
+}
+
+.mariela--third-screen__container {
+    width: 100%;
+    max-width: 932px;
+    margin: 0 auto;
+}
+
+.mariela--product-card__third-screen {
+    margin-left: -33px;
+    padding: 124px 102px 231px 47px
+}
+
+.mariela--third-screen .img-fluid {
+    z-index: 2;
+}
