@@ -165,7 +165,6 @@ body {
 
 .mariela--about-btn {
     display: block;
-    margin: 0 auto;
     background: none;
     border: none;
     font-family: 'Roboto';
@@ -214,4 +213,40 @@ body {
 .mariela--product-card__second-screen {
     margin-right: -42px;
     padding-right: 71px;
+}
+
+.mariela--second-about__container {
+    width: 100%;
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.mariela--second-about__container .row:first-child {
+    padding-top: 75px;
+}
+
+.mariela--second-about__container .row {
+    padding: 40px 0;
+    border-bottom: 1px solid #D7B7D4;
+}
+
+.mariela--second-about__container .row:last-child {
+    border: 0;
+}
+
+.mariela--second-about__title {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-bottom: 1px;
+}
+
+.mariela--second-about__description {
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    max-width: 481px;
 }
