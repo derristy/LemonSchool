@@ -79,6 +79,9 @@ body {
     width: 425px;
     height: 450px;
     color: #fff;
+}
+
+.mariela--product-card__first-screen {
     margin-left: -127px;
 }
 
@@ -194,4 +197,21 @@ body {
     line-height: 30px;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.mariela--second-screen {
+    height: 825px;
+    background: #CEB3CB;
+    padding: 75px 0;
+}
+
+.mariela--second-screen__container {
+    width: 100%;
+    max-width: 923px;
+    margin: 0 auto;
+}
+
+.mariela--product-card__second-screen {
+    margin-right: -42px;
+    padding-right: 71px;
 }
