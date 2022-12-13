@@ -232,6 +232,7 @@ body {
 
 .mariela--second-about__container .row:last-child {
     border: 0;
+    padding-bottom: 75px;
 }
 
 .mariela--second-about__title {
