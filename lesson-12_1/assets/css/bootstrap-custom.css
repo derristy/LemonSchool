@@ -308,3 +308,75 @@ body {
     margin-top: 7px;
     text-align: center;
 }
+
+.mariela--feedback {
+    height: 568px;
+    background: #CEB3CB;
+}
+
+.mariela--feedback__container {
+    width: 100%;
+    max-width: 963px;
+    margin: 0 auto;
+    padding: 62px 0 82px;
+}
+
+.mariela--feedback__title {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mariela--feedback__content {
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.mariela--feedback__input::placeholder {
+    color: #fff;
+}
+
+.mariela--feedback__input:focus {
+    outline: none;
+}
+
+.mariela--feedback__input {
+    border: 1px solid #FFFFFF;
+    padding: 9px 0 10px 15px;
+    width: 100%;
+    background: none;
+    color: #fff;
+}
+
+.mariela--feedback__textarea::placeholder {
+    color: #fff;
+}
+
+.mariela--feedback__textarea:focus {
+    outline: none;
+}
+
+.mariela--feedback__textarea {
+    border: 1px solid #FFFFFF;
+    padding: 9px 0 10px 15px;
+    height: 103px;
+    width: 100%;
+    background: none;
+    margin-bottom: 25px;
+    color: #fff;
+    resize: none;
+}
+
+.mariela--feedback__btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 9px 69px 10px 69px;
+}
