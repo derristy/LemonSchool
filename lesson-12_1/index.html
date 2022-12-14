@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
 </head>
 <body>
+  <header>
     <nav class="navbar navbar-expand-lg mariela--navbar">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -41,29 +42,30 @@
           </div>
         </div>
       </nav>
-
-      <div class="mariela--first-screen">
+  </header>
+  <main>
+    <div class="mariela--first-screen">
         <div class="mariela--first-screen__container mariela--first-screen__cube-decoration d-flex">
             <img src="assets/images/first-screen/pillow.svg" alt="" class="img-fluid">
             <div class="mariela--product-card mariela--product-card__first-screen">
                 <span class="mariela--product-label">new</span>
                 <h1 class="mariela--product-title">Spring Cushion Collection 2019</h1>
                 <button class="mariela--product-btn">buy now</button>
+              </div>
             </div>
-        </div>
-      </div>
-
-      <section class="mariela--first-about">
-        <div class="mariela--first-about__container">
-          <h1 class="mariela--about-title">I'm a cushion designer</h1>
-          <p class="mariela--about-description">Based in San Francisco, California I design trendy and fashion Cushions, since I have memory I always had a tendency to design and illustration.</p>
-          <button class="mariela--about-btn mx-auto">Learn More</button>
-          <div class="row">
-            <div class="col-4">
-              <div class="mariela--about-card">
-                <img src="assets/images/about-card/girl.svg" alt="" class="img-fluid">
-                <div class="mariela--about-card__wrapper">
-                  <h1 class="mariela--about-card__title">About me</h1>
+          </div>
+          
+          <section class="mariela--first-about">
+            <div class="mariela--first-about__container">
+              <h1 class="mariela--about-title">I'm a cushion designer</h1>
+              <p class="mariela--about-description">Based in San Francisco, California I design trendy and fashion Cushions, since I have memory I always had a tendency to design and illustration.</p>
+              <button class="mariela--about-btn mx-auto">Learn More</button>
+              <div class="row">
+                <div class="col-4">
+                  <div class="mariela--about-card">
+                    <img src="assets/images/about-card/girl.svg" alt="" class="img-fluid">
+                    <div class="mariela--about-card__wrapper">
+                      <h1 class="mariela--about-card__title">About me</h1>
                   <a href="#" class="mariela--about-card__btn">Learn more</a>
                 </div>
               </div>
@@ -94,13 +96,13 @@
         <div class="mariela--second-screen__container d-flex flex-row-reverse">
           <img src="assets/images/second-screen/girl.svg" alt="" class="img-fluid">
           <div class="mariela--product-card mariela--product-card__second-screen">
-              <span class="mariela--product-label">About me</span>
-              <h1 class="mariela--product-title">I'm a trendy Cushion Designer</h1>
-              <button class="mariela--product-btn">learn more</button>
+            <span class="mariela--product-label">About me</span>
+            <h1 class="mariela--product-title">I'm a trendy Cushion Designer</h1>
+            <button class="mariela--product-btn">learn more</button>
           </div>
         </div>
       </div>
-
+      
       <section class="mariela--second-about">
         <div class="mariela--second-about__container">
           <div class="row">
@@ -113,7 +115,7 @@
               <img src="assets/images/second-about/pillow-1.svg" alt="" class="img-fluid">
             </div>
           </div>
-
+          
           <div class="row d-flex flex-row-reverse">
             <div class="col-6 p-0 align-self-center">
               <h1 class="mariela--second-about__title">carrer</h1>
@@ -140,18 +142,18 @@
           </div>
         </div>
       </section>
-
+      
       <div class="mariela--third-screen">
         <div class="mariela--third-screen__container d-flex">
           <img src="assets/images/third-screen/pillow.svg" alt="" class="img-fluid">
           <div class="mariela--product-card mariela--product-card__third-screen">
-              <span class="mariela--product-label">new</span>
-              <h1 class="mariela--product-title">Spring Cushion Collection 2019</h1>
-              <button class="mariela--product-btn">buy now</button>
+            <span class="mariela--product-label">new</span>
+            <h1 class="mariela--product-title">Spring Cushion Collection 2019</h1>
+            <button class="mariela--product-btn">buy now</button>
           </div>
         </div>
       </div>
-
+      
       <div class="mariela--product">
         <div class="mariela--product__container">
           <div class="row">
@@ -171,7 +173,7 @@
               <span class="mariela--product__price">$ 19.99 USD</span>
             </div>
           </div>
-
+          
           <div class="row">
             <div class="col-4">
               <img src="assets/images/product/pillow-4.svg" alt="" class="img-fluid">
@@ -198,45 +200,59 @@
             <div class="col-5">
               <h1 class="mariela--feedback__title">email</h1>
               <p class="mariela--feedback__content">support@website.com</p>
-
+              
               <h1 class="mariela--feedback__title">phone</h1>
               <p class="mariela--feedback__content">800-123-456</p>
-
+              
               <h1 class="mariela--feedback__title">address</h1>
               <p class="mariela--feedback__content">23 Evergreen Street,
                 <br>San Francisco, California
                 <br>USA</p>
-            </div>
-            <div class="col-7">
-              <h1 class="mariela--feedback__title">address</h1>
-              <p class="mariela--feedback__content">Drop us your message and I'll get back to you as soon as possible.</p>
-
-              <form action="#" method="GET">
-                <div class="row mb-4">
-                  <div class="col-6">
-                    <input type="text" class="mariela--feedback__input" name="username" placeholder="your name">
-                  </div>
-                  <div class="col-6">
-                    <input type="text" class="mariela--feedback__input" name="company" placeholder="your company">
-                  </div>
+              </div>
+              <div class="col-7">
+                <h1 class="mariela--feedback__title">address</h1>
+                <p class="mariela--feedback__content">Drop us your message and I'll get back to you as soon as possible.</p>
+                
+                <form action="#" method="GET">
+                  <div class="row mb-4">
+                    <div class="col-6">
+                      <input type="text" class="mariela--feedback__input" name="feedback_username" placeholder="your name">
+                    </div>
+                    <div class="col-6">
+                      <input type="text" class="mariela--feedback__input" name="feedback_company" placeholder="your company">
+                    </div>
                 </div>
                 <div class="row mb-4">
                   <div class="col-6">
-                    <input type="tel" class="mariela--feedback__input" name="phone" placeholder="your phone">
+                    <input type="tel" class="mariela--feedback__input" name="feedback_phone" placeholder="your phone">
                   </div>
                   <div class="col-6">
-                    <input type="email" class="mariela--feedback__input" name="email" placeholder="your email">
+                    <input type="email" class="mariela--feedback__input" name="feedback_email" placeholder="your email">
                   </div>
                 </div>
                 <textarea class="mariela--feedback__textarea" name="message" placeholder="your message"></textarea>
-
+                
                 <button class="mariela--feedback__btn">Lets talk</button>
               </form>
             </div>
           </div>
         </div>
       </div>
-    
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-</body>
+      
+      <div class="mariela--newsletter">
+        <div class="mariela--newsletter__container d-flex flex-column align-items-center">
+          <h1 class="mariela--newsletter__title">NEWSLETTER</h1>
+          <p class="mariela--newsletter__content">Get promotions & updates!</p>
+
+          <form action="#" method="GET" class="d-flex">
+            <input type="text" name="newsletter_username" class="mariela--newsletter__input" placeholder="your name">
+            <input type="email" name="newsletter_email" class="mariela--newsletter__input" placeholder="your email">
+            <button class="mariela--newsletter__btn">subscribe</button>
+          </form>
+        </div>
+      </div>
+    </main>
+      
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

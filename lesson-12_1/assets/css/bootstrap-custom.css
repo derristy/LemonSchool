@@ -380,3 +380,64 @@ body {
     border: 1px solid #FFFFFF;
     padding: 9px 69px 10px 69px;
 }
+
+.mariela--newsletter {
+    padding: 95px 0;
+}
+
+.mariela--newsletter__container {
+    width: 100%;
+    max-width: 595px;
+    margin: 0 auto;
+}
+
+.mariela--newsletter__title {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+
+.mariela--newsletter__content {
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin-bottom: 13px;
+}
+
+.mariela--newsletter__input {
+    display: block;
+    background: none;
+    color: #CEB3CB;
+    border: 1px solid #CEB3CB;
+    font-size: 18px;
+}
+
+.mariela--newsletter__input::placeholder {
+    text-align: center;
+}
+
+.mariela--newsletter__input:first-of-type {
+    border-radius: 3px 0 0 3px;
+    border-right-style: none;
+}
+
+.mariela--newsletter__input:last-of-type {
+    border-right-style: none;
+}
+
+.mariela--newsletter__input:focus {
+    outline: none;
+}
+
+.mariela--newsletter__btn {
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #CEB3CB;
+    border: none;
+    padding: 15px 44px;
+    border-radius: 0 3px 3px 0;
+}
