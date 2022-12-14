@@ -40,7 +40,7 @@ body {
 }
 
 .mariela--first-screen {
-    height: 817px;
+    min-height: 817px;
     background: linear-gradient(to bottom, #C9ADC6 55%, #D6BBD3 45%);
 }
 
@@ -200,7 +200,7 @@ body {
 }
 
 .mariela--second-screen {
-    height: 825px;
+    min-height: 825px;
     background: #CEB3CB;
     padding: 75px 0;
 }
@@ -256,7 +256,7 @@ body {
 }
 
 .mariela--third-screen {
-    height: 825px;
+    min-height: 825px;
     background: #CEB3CB;
     padding: 75px 0;
 }
@@ -314,7 +314,7 @@ body {
 }
 
 .mariela--feedback {
-    height: 568px;
+    min-height: 568px;
     background: #CEB3CB;
 }
 
@@ -449,6 +449,10 @@ body {
     border-radius: 0 3px 3px 0;
 }
 
+.mariela--newsletter__form {
+    display: flex;
+}
+
 .mariela--features {
     min-height: 235px;
     background: #D6BBD3;
@@ -490,4 +494,27 @@ body {
     line-height: 30px;
     color: #FFFFFF;
     text-align: center;
+}
+
+.mariela--navbar-footer {
+    padding: 40px 0;
+    background: #C9ADC6;
+}
+
+.mariela--navbar-footer .nav-link {
+    color: #fff;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.mariela--navbar-footer .nav-item {
+    margin-right: 35px;
+}
+
+.mariela--navbar-footer .nav-item:first-child {
+    margin-left: 64px;
+}
+
+.mariela--navbar-footer .nav-item:last-child {
+    margin-right: 0;
 }
