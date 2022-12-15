@@ -554,11 +554,7 @@ body {
         margin-right: 0;
     }
 
-    .mariela--first-screen__cube-decoration::before {
-        display: none;
-    }
-
-    .mariela--first-screen__cube-decoration::after {
+    .mariela--first-screen__cube-decoration::before, .mariela--first-screen__cube-decoration::after {
         display: none;
     }
 
