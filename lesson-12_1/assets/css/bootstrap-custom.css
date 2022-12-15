@@ -29,6 +29,11 @@ body {
     color: #B08EAD;
     font-size: 24px;
     line-height: 30px;
+    transition: color .3s;
+}
+
+.mariela--navbar .nav-link:hover {
+    color: rgb(44, 35, 35);
 }
 
 .mariela--navbar .nav-item {
@@ -142,6 +147,7 @@ body {
 
 .mariela--about-card {
     background: #CEB3CB;
+    box-shadow: 3px 3px 3px 3px #ceb3cb4d;
     max-width: 368px;
 }
 
@@ -179,6 +185,12 @@ body {
     border: 1px solid #B99BB6;
     border-radius: 25px;
     margin-bottom: 50px;
+    transition: background .3s, color .3s;
+}
+
+.mariela--about-btn:hover {
+    background: #B99BB6;
+    color: #fff;
 }
 
 .mariela--about-card__wrapper {
@@ -198,6 +210,11 @@ body {
     line-height: 30px;
     text-decoration: none;
     color: #FFFFFF;
+    transition: color .3s;
+}
+
+.mariela--about-card__btn:hover {
+    color: rgb(48, 37, 37);
 }
 
 .mariela--second-screen {
@@ -357,12 +374,17 @@ body {
     color: #fff;
 }
 
+.mariela--feedback__input:focus {
+    border-color: rgb(112, 86, 124);
+}
+
 .mariela--feedback__textarea::placeholder {
     color: #fff;
 }
 
 .mariela--feedback__textarea:focus {
     outline: none;
+    border-color: rgb(112, 86, 124);
 }
 
 .mariela--feedback__textarea {
@@ -384,6 +406,12 @@ body {
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     padding: 9px 69px 10px 69px;
+    transition: background .3s, color .3s;
+}
+
+.mariela--feedback__btn:hover {
+    background: #fff;
+    color: #000;
 }
 
 .mariela--newsletter {
@@ -423,6 +451,10 @@ body {
     font-size: 18px;
 }
 
+.mariela--newsletter__input:focus {
+    background: rgb(226, 221, 221);
+}
+
 .mariela--newsletter__input::placeholder {
     text-align: center;
 }
@@ -448,6 +480,11 @@ body {
     border: none;
     padding: 15px 44px;
     border-radius: 0 3px 3px 0;
+    transition: background .3s;
+}
+
+.mariela--newsletter__btn:hover {
+    background: #af93ac;
 }
 
 .mariela--newsletter__form {
@@ -475,7 +512,12 @@ body {
     margin: 0 auto;
 }
 
+.mariela--features__radius:hover img {
+    transform: translate(-50%, -50%) rotate(360deg);
+}
+
 .mariela--features__radius img {
+    transition: transform .5s;
     position: absolute;
     top: 50%;
     left: 50%;
