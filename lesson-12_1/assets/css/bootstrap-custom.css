@@ -571,6 +571,14 @@ body {
     .mariela--second-about__description {
         font-size: 20px;
     }
+
+    .mariela--product-card__third-screen {
+        z-index: 3;
+    }
+
+    .mariela--product-card__third-screen {
+        margin-left: -197px;
+    }
 }
 
 @media (max-width: 768px){
@@ -578,14 +586,9 @@ body {
         flex-direction: column;
     }
 
-    .mariela--product-card__first-screen {
-        margin-top: 0;
-        max-width: 100%;
-        padding: 50px;
-        height: auto;
-    }
-
-    .mariela--product-card__second-screen {
+    .mariela--product-card__second-screen, 
+    .mariela--product-card__first-screen, 
+    .mariela--product-card__third-screen {
         margin-top: 0;
         max-width: 100%;
         padding: 50px;
@@ -611,5 +614,14 @@ body {
 
     .mariela--product-title {
         font-size: 35px;
+    }
+
+    .mariela--third-screen__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mariela--product-card__third-screen {
+        margin-left: 0;
     }
 }
