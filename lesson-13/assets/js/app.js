@@ -1,4 +1,11 @@
-$(document).ready(function(){
-    $("#phone").mask("+38 (000) 000-00-00");
-    $("select#nice-select").niceSelect();
+$(window).on("scroll", () => {
+    if($(window).scrollTop() >= 200){
+        $(".scroll-up").addClass("show");
+    } else {
+        $(".scroll-up").removeClass("show");
+    }
+});
+
+$(".scroll-up").on("click", () => {
+    $(window).scrollTop(0);
 });
