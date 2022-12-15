@@ -565,6 +565,18 @@ body {
         height: auto;
     }
 
+    .mariela--about-description {
+        font-size: 20px;
+    }
+
+    .mariela--first-screen {
+        min-height: 0;
+    }
+
+    .mariela--first-about {
+        margin: 50px 0;
+    }
+
     .mariela--product-title {
         font-size: 35px;
     }
