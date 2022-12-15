@@ -648,11 +648,17 @@ body {
 
     .mariela--newsletter__input:first-of-type {
         border-right-style: solid;
+        border-radius: 3px;
         margin-bottom: 10px;
     }
 
     .mariela--newsletter__input:last-of-type {
         border-right-style: solid;
+        border-radius: 3px;
         margin-bottom: 15px;
+    }
+
+    .mariela--newsletter__btn {
+        border-radius: 3px;
     }
 }
