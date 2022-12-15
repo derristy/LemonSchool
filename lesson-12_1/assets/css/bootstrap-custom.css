@@ -635,3 +635,24 @@ body {
         margin-left: 0;
     }
 }
+
+@media (max-width: 576px){
+    .mariela--newsletter__form {
+        flex-direction: column;
+        width: calc(100%);
+    }
+
+    .mariela--newsletter__input {
+        padding: 10px 0;
+    }
+
+    .mariela--newsletter__input:first-of-type {
+        border-right-style: solid;
+        margin-bottom: 10px;
+    }
+
+    .mariela--newsletter__input:last-of-type {
+        border-right-style: solid;
+        margin-bottom: 15px;
+    }
+}
