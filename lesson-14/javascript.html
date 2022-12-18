@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 
@@ -49,18 +51,95 @@
     </nav>
 
     <div class="container-fluid">
+        <div class="row d-flex">
+            <div class="col-12 col-sm-6 col-md-3 bg-primary">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count1"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 bg-secondary">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count2"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 bg-warning">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count3"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 bg-info">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-3 bg-primary">
-                <div class="fs-1 text-light p-5" id="count1"></div>
+            <div class="col-12 d-flex flex-column align-items-end mb-500 wow animate__animated animate__backInRight">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
             </div>
-            <div class="col-3 bg-secondary">
-                <div class="fs-1 text-light p-5" id="count2"></div>
+            <div class="col-12 d-flex flex-column align-items-start mb-500 wow animate__animated animate__backInLeft" data-wow-offset="100">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
             </div>
-            <div class="col-3 bg-warning">
-                <div class="fs-1 text-light p-5" id="count3"></div>
+            <div class="col-12 d-flex flex-column align-items-end mb-500 wow animate__animated animate__shakeX" data-wow-iteration="10">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
             </div>
-            <div class="col-3 bg-info">
-                <div class="fs-1 text-light p-5" id="count4"></div>
+            <div class="col-12 d-flex flex-column align-items-start mb-500 wow animate__animated animate__jello" data-delay="2s">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-end mb-500 wow animate__animated animate__flipInX" data-duration="1s">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-start mb-500" data-aos="fade-up">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-end mb-500" data-aos="fade-down">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-start mb-500" data-aos="fade-right">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-end mb-500" data-aos="fade-left">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-start mb-500" data-aos="flip-left">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-end" data-aos="flip-right">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
@@ -72,6 +151,12 @@
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="assets/js/jquery-3.6.1.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        new WOW().init();
+        AOS.init();
+    </script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WZF15NX96"></script>

@@ -305,6 +305,10 @@ body {
     border-right-style: none;
 }
 
+.mb-500 {
+    margin-bottom: 500px;
+}
+
 @keyframes monster-sprite-x {
     0% {
         background-position-x: 0;
