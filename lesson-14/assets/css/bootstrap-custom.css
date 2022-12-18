@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.ttf");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.ttf");
+    font-weight: 600;
+    font-display: swap;
+}
+
+body {
+    position: relative;
+}
+
+.bg-custom {
+    background: #F5F5F5;
+}
+
+.bg-custom-blue {
+    background: rgb(172,117,243);
+}
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.accordion-custom .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/accordion-close.svg");
+}
+
+.accordion-custom .accordion-button::after {
+    background-image: url("../images/accordion-open.svg");
+}
+
+.accordion-custom .accordion-item {
+    margin-bottom: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.accordion-custom .accordion-item:has(.collapse.show) {
+    box-shadow: 0px 6px 24px rgba(11, 48, 93, 0.2);
+}
+
+.accordion-custom .accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-custom .accordion-button:not(.collapsed) {
+    background: none;
+    box-shadow: none;
+}
+
+.accordion-custom .accordion-body {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 84px 35px 34px;
+}
+
+.accordion-custom .accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-custom .accordion-button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B305D;
+    padding: 24px 30px 21px 34px;
+}
+
+.nav-tabs-custom .nav-tabs {
+    margin-bottom: 30px;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link {
+    border: 0;
+    border-radius: 12px;
+    background: #fff;
+    padding: 24px 45px 24px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B305D;
+    margin-bottom: 10px;
+}
+
+.nav-tabs-custom .nav-item {
+    margin-right: 33px;
+}
+
+.nav-tabs-custom .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link.active {
+    background: #D8E5FD;
+    box-shadow: 0px 6px 24px rgba(11, 48, 93, 0.2);
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:hover {
+    background: #b4c6e9;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:focus {
+    border: 3px solid #b4c6e9;
+}
+
+.nav-tabs-custom .nav-tabs .nav-link:active {
+    background: #747e92;
+}
+
+.nav-tabs-custom .nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs-custom .tab-pane { 
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 22px 37px 18px 37px;
+}
+
+.bg-parallax {
+    background-image: url("../images/boat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-custom input {
+    transition: background .5s;
+}
+
+.form-custom input:focus-visible {
+    background: rgb(82, 155, 145);
+}
+
+.form-custom input:hover {
+    background: #91c5a5;
+}
+
+.form-custom input:active {
+    background: #37445e;
+}
+
+.transform-animation {
+    background: #FCE4EC;
+    border: 3px solid #C0CA33;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    animation: notransform 3s infinite;
+}
+
+.transform-animation--translate {
+    transform: translate(-100px, 0);
+}
+
+.transform-animation--scale {
+    transform: scale(1.5, 0.5);
+}
+
+.transform-animation--rotate {
+    transform: rotate(-20deg);
+}
+
+.transform-animation--skew {
+    transform: skew(10deg, 10deg);
+}
+
+.cat-sprite-y {
+    background: url("../images/cat-sprite.png");
+    height: 200px;
+    width: 415px;
+    animation: cat-sprite-y 0.5s steps(12) infinite;
+}
+
+.monster-sprite-x {
+    background: url("../images/monster-sprite-x.svg");
+    height: 240px;
+    width: 190px;
+    animation: monster-sprite-x 3s steps(10) infinite;
+}
+
+.social-icons {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #BDBDBD;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.social-icons__item {
+    list-style: none;
+    width: 84px;
+    height: 84px;
+    transition: .5s;
+    background: url("../images/social-sprite.png");
+}
+
+.social-icons__item:hover {
+    transform: matrix3d(1.323512, 0.337331, 0, 0.000478, 
+    -0.353047, 1.143763, 0, 0.000263, 
+    0, 0, 1, 0, 
+    3.297923, -34.814553, 0, 1);
+    transform-origin: -60px -40px 0px;
+}
+
+.social-icons__item.facebook {
+    background-position: 0 -168px;
+}
+
+.social-icons__item.facebook:hover {
+    background-position: 0 -84px;
+}
+
+.social-icons__item.google {
+    background-position: -252px -168px;
+}
+
+.social-icons__item.google:hover {
+    background-position: -252px -84px;
+}
+
+.social-icons__item.linkedin {
+    background-position: -336px -168px;
+}
+
+.social-icons__item.linkedin:hover {
+    background-position: -336px -84px;
+}
+
+.social-icons__item.pinterest {
+    background-position: -420px -168px;
+}
+
+.social-icons__item.pinterest:hover {
+    background-position: -420px -84px;
+}
+
+.social-icons__item.skype {
+    background-position: -588px -168px;
+}
+
+.social-icons__item.skype:hover {
+    background-position: -588px -84px;
+}
+
+.social-icons__item.twitter {
+    background-position: -672px -168px;
+}
+
+.social-icons__item.twitter:hover {
+    background-position: -672px -84px;
+}
+
+.social-icons__item.youtube {
+    background-position: -840px -168px;
+}
+
+.social-icons__item.youtube:hover {
+    background-position: -840px -84px;
+}
+
+.scroll-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F4511E;
+    transition: background .3s;
+}
+
+.scroll-up.show {
+    display: block;
+}
+
+.scroll-up:hover {
+    background: #bb4a27;
+}
+
+.scroll-up-btn {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%) rotate(45deg);
+    width: 30px;
+    height: 30px;
+    border: 4px solid #fff;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+@keyframes monster-sprite-x {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1900px;
+    }
+}
+
+@keyframes cat-sprite-y {
+    0% {
+        background-position-y: 2400px;
+    }
+    100% {
+        background-position-y: 0;
+    }
+}
+
+@keyframes notransform {
+    50% {
+        transform: none;
+    }
+}
