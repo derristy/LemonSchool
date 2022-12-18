@@ -51,7 +51,7 @@ main {
 }
 
 .first-screen-slider__item {
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 163px 0 0 0;
     height: 700px;
@@ -76,19 +76,19 @@ main {
 }
 
 .first-screen-slider__item.bg-1 {
-    background-image: url("../images/first-screen/first-screen-1.svg")
+    background-image: url("../images/first-screen/first-screen-1.png")
 }
 
 .first-screen-slider__item.bg-2 {
-    background-image: url("../images/first-screen/first-screen-2.svg")
+    background-image: url("../images/first-screen/first-screen-2.png")
 }
 
 .first-screen-slider__item.bg-3 {
-    background-image: url("../images/first-screen/first-screen-3.svg")
+    background-image: url("../images/first-screen/first-screen-3.png")
 }
 
 .first-screen-slider__item.bg-4 {
-    background-image: url("../images/first-screen/first-screen-4.svg")
+    background-image: url("../images/first-screen/first-screen-4.png")
 }
 
 .master-tao .slick-prev {
