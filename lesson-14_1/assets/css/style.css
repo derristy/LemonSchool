@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+.master-tao {
+    background: #282B38;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+.master-tao .nav-link {
+    color: #fff;
+}
+
+.master-tao .navbar {
+    margin: 41px 0 50px 0;
+}
+
+.secondary-container {
+    max-width: 1140px;
+}
