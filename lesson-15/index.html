@@ -84,9 +84,17 @@
         </section>
         <div class="calc">
             <div class="container">
-                <div class="row d-flex align-items-center">
+                <div class="row">
                     <div class="col-6">
+                        <div class="template-title">
+                            <h3>Получить рассчет стоимости <br> доставки вашего груза</h3>
+                        </div>
                         <form action="#" method="GET" class="form">
+                            <div class="steps">
+                                <div class="steps-item active">1</div>
+                                <div class="steps-item">2</div>
+                                <div class="steps-item">3</div>
+                            </div>
                             <div class="row">
                                 <div class="col-6">
                                     <label for="step1-category" class="form-label">Категория товара:</label>
@@ -105,12 +113,12 @@
                                     <input type="text" id="step1-volume" name="step1-volume" class="form-input" placeholder="Введите объем">
                                 </div>
                                 <div class="col-6">
-                                    <div class="d-flex">
-                                        <input type="checkbox" name="step1-belay" id="step1-belay">
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" class="input-checkbox" name="step1-belay" id="step1-belay">
                                         <label for="step1-belay" class="form-label p-2">Страховка</label>
                                     </div>
-                                    <div class="d-flex">
-                                        <input type="checkbox" name="step1-customs" id="step1-customs">
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" class="input-checkbox" name="step1-customs" id="step1-customs">
                                         <label for="step1-customs" class="form-label p-2">Таможенное оформление</label>
                                     </div>
                                 </div>
@@ -130,7 +138,7 @@
                         </form>
                     </div>
                     <div class="col-6">
-                        <img src="assets/images/calc/man.svg" class="short-man" alt="">
+                        <img src="assets/images/calc/man.svg" alt="">
                     </div>
                 </div>
             </div>

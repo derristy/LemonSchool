@@ -14,6 +14,6 @@ $("#step1-file").on("change", () => {
     $("#step1-file-name").html("");
 
     $.each(file, function(key, value) {
-        $("#step1-file-name").append("<p>"+value["name"]+"</p>");
+        $("#step1-file-name").append("<p data-prop-key=\""+key+"\">"+value["name"]+"</p>");
     });
 });
