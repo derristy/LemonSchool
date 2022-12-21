@@ -77,12 +77,55 @@
                     <div class="container">
                         <h1 class="first-screen-title">Lorem ipsum dolor sit amet.</h1>
                         <p class="first-screen-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quae?</p>
-                        <button class="
-                        btn-orange">Рассчитать стоимость <img src="assets/images/arrow-right.svg" alt="Arrow right"></button>
+                        <button class="btn-orange">Рассчитать стоимость <img src="assets/images/arrow-right.svg" alt="Arrow right"></button>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="calc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <form action="#" method="GET" class="form">
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="step1-category" class="form-label">Категория товара:</label>
+                                    <input type="text" id="step1-category" name="step1-category" class="form-input" placeholder="Категория товара">
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-price" class="form-label">Стоимость груза:</label>
+                                    <input type="text" id="step1-price" name="step1-price" class="form-input" placeholder="Введите стоимость">
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-weight" class="form-label">Вес груза (кг):</label>
+                                    <input type="text" id="step1-weight" name="step1-weight" class="form-input" placeholder="Введите вес">
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-volume" class="form-label">Объем груза (м3):</label>
+                                    <input type="text" id="step1-volume" name="step1-volume" class="form-input" placeholder="Введите объем">
+                                </div>
+                                <div class="col-6">
+                                    <input type="checkbox" name="step1-belay" id="step1-belay">
+                                    <label for="step1-belay" class="form-label">Страховка</label>
+                                    <input type="checkbox" name="step1-customs" id="step1-customs">
+                                    <label for="step1-customs" class="form-label">Таможенное оформление</label>
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-tnved" class="form-label">Код ТН ВЭД:</label>
+                                    <input type="text" id="step1-tnved" name="step1-tnved" class="form-input" placeholder="Введите код">
+                                </div>
+                                <div class="col-12">
+                                    <input type="file" name="step1-file" id="step1-file" class="form-input">
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn-orange">Следующий шаг <img src="assets/images/arrow-right.svg" alt="Arrow right"></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>

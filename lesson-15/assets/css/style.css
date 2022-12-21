@@ -1,6 +1,14 @@
+:root {
+    --color-orange: #E58D35;
+    --color-white: #fff;
+    --color-grey: #CBCBCB;
+    --bg-primary: #363A4D;
+}
+
 @font-face {
     font-family: "Proxima Nova";
     src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+    font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
@@ -8,6 +16,7 @@
 @font-face {
     font-family: "Proxima Nova";
     src: url("../fonts/ProximaNova-Semibold.ttf") format("truetype");
+    font-style: normal;
     font-weight: 600;
     font-display: swap;
 }
@@ -15,6 +24,7 @@
 @font-face {
     font-family: "Proxima Nova";
     src: url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+    font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
@@ -29,7 +39,7 @@ main {
 }
 
 .master-tao .nav-link {
-    color: #fff;
+    color: var(--color-white);
     font-size: 16px;
     line-height: 146%;
 }
@@ -48,13 +58,14 @@ main {
 
 .first-screen {
     position: relative;
+    margin-bottom: 97px;
 }
 
 .first-screen-slider__item {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 163px 0 0 0;
-    height: 700px;
+    min-height: 700px;
     border-radius: 20px;
 }
 
@@ -63,14 +74,14 @@ main {
     font-size: 56px;
     line-height: 126%;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--color-white);
     max-width: 463px;
 }
 
 .first-screen-subtitle {
     font-size: 20px;
     line-height: 135.5%;
-    color: #FFFFFF;
+    color: var(--color-white);
     max-width: 345px;
     margin-bottom: 37px;
 }
@@ -100,7 +111,7 @@ main {
     height: 30px;
     width: 30px;
     transform: rotate(-44deg);
-    border: 3px solid #fff;
+    border: 3px solid var(--color-white);
     border-right-style: none;
     border-bottom-style: none;
     background: none;
@@ -116,7 +127,7 @@ main {
     height: 30px;
     width: 30px;
     transform: rotate(135deg);
-    border: 3px solid #fff;
+    border: 3px solid var(--color-white);
     border-right-style: none;
     border-bottom-style: none;
     background: none;
@@ -146,28 +157,58 @@ main {
     height: 8px;
     padding: 0;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid var(--color-white);
     font-size: 0;
     border-radius: 90px;
     transition: background .5s;
 }
 
 .master-tao .slick-dots .slick-active button {
-    background: #fff;
+    background: var(--color-white);
 }
 
 .btn-orange {
-    background: #E58D35;
-    color: #fff;
+    background: var(--color-orange);
+    color: var(--color-white);
     border: none;
     border-radius: 90px;
     font-weight: 600;
     font-size: 16px;
     display: inline-flex;
     padding: 14px 27px;
+    transition: opacity .5s;
+}
+
+.btn-orange:hover {
+    opacity: .7;
 }
 
 .btn-orange img {
     margin-left: 49px;
     margin-right: -10px;
+}
+
+.form {
+    background: var(--bg-primary);
+    padding: 70px 50px 41px;
+    border-radius: 20px;
+}
+
+.form-input {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 19px 20px;
+    margin-bottom: 20px;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-label {
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 126%;
 }
