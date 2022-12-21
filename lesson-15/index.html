@@ -84,7 +84,7 @@
         </section>
         <div class="calc">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-6">
                         <form action="#" method="GET" class="form">
                             <div class="row">
@@ -105,23 +105,32 @@
                                     <input type="text" id="step1-volume" name="step1-volume" class="form-input" placeholder="Введите объем">
                                 </div>
                                 <div class="col-6">
-                                    <input type="checkbox" name="step1-belay" id="step1-belay">
-                                    <label for="step1-belay" class="form-label">Страховка</label>
-                                    <input type="checkbox" name="step1-customs" id="step1-customs">
-                                    <label for="step1-customs" class="form-label">Таможенное оформление</label>
+                                    <div class="d-flex">
+                                        <input type="checkbox" name="step1-belay" id="step1-belay">
+                                        <label for="step1-belay" class="form-label p-2">Страховка</label>
+                                    </div>
+                                    <div class="d-flex">
+                                        <input type="checkbox" name="step1-customs" id="step1-customs">
+                                        <label for="step1-customs" class="form-label p-2">Таможенное оформление</label>
+                                    </div>
                                 </div>
                                 <div class="col-6">
                                     <label for="step1-tnved" class="form-label">Код ТН ВЭД:</label>
                                     <input type="text" id="step1-tnved" name="step1-tnved" class="form-input" placeholder="Введите код">
                                 </div>
                                 <div class="col-12">
-                                    <input type="file" name="step1-file" id="step1-file" class="form-input">
+                                    <input type="file" name="step1-file" id="step1-file" class="input-file" multiple>
+                                    <div class="step1-file-name" id="step1-file-name"></div>
+                                    <button type="button" class="btn-upload" id="step1-file-btn">Загрузить фото товара</button>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn-orange">Следующий шаг <img src="assets/images/arrow-right.svg" alt="Arrow right"></button>
                                 </div>
                             </div>
                         </form>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets/images/calc/man.svg" class="short-man" alt="">
                     </div>
                 </div>
             </div>

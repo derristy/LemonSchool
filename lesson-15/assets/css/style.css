@@ -212,3 +212,31 @@ main {
     font-size: 15px;
     line-height: 126%;
 }
+
+.btn-upload {
+    color: var(--color-white);
+    width: 100%;
+    background: none;
+    border: none;
+    border: 1px dashed rgba(255, 255, 255, 0.26);
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 126%;
+    margin-bottom: 26px;
+}
+
+.input-file {
+    display: none;
+}
+
+.step1-file-name {
+    color: var(--color-white);
+    font-size: 15px;
+    line-height: 126%;
+    margin-bottom: 18px;
+}
+
+.short-man {
+    margin-left: -75px;
+}
