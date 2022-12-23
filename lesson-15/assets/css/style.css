@@ -58,7 +58,6 @@ main {
 }
 
 .first-screen {
-    position: relative;
     margin-bottom: 97px;
 }
 
@@ -141,6 +140,7 @@ main {
     left: 50%;
     transform: translate(-50%, 0);
     display: flex;
+    justify-content: center;
     margin-bottom: 43px;
 }
 
@@ -331,12 +331,8 @@ main {
     padding: 90px 0 110px;
 }
 
-.advantages .row {
-    margin-bottom: 48px;
-}
-
-.advantages .row:last-child {
-    margin-bottom: 0;
+.advantages .row div:not(.slick-slide):nth-child(n+5) {
+    margin-top: 48px;
 }
 
 .advantages-box {
@@ -368,4 +364,8 @@ main {
     line-height: 124.5%;
     color: var(--color-white);
     text-align: center;
+}
+
+.advantages .slick-dots {
+    bottom: -100px;
 }
