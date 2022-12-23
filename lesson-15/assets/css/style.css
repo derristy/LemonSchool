@@ -267,7 +267,7 @@ main {
     text-transform: uppercase;
 }
 
-.template-title:before {
+.template-title.decoration:before {
     width: 85px;
     height: 2px;
     content: "";
@@ -276,6 +276,14 @@ main {
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.template-border-decoration {
+    width: 85px;
+    height: 2px;
+    background: var(--color-green);
+    display: inline-flex;
+    margin: 0 0 11px 10px;
 }
 
 .steps {
