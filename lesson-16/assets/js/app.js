@@ -28,12 +28,16 @@ function advantages_slider(){
     let element = $('.advantages .row');
 
     if($(window).width() <= 992){
-        element.slick({
-            arrows: false,
-            dots: true,
-            mobileFirst: true
-        });
+        if(!element.hasClass("slick-initialized")){
+            element.slick({
+                arrows: false,
+                dots: true,
+                mobileFirst: true
+            });
+        }
     } else {
-        element.slick("unslick");
+        if(element.hasClass("slick-initialized")){
+            element.slick("unslick");
+        }
     }
 }

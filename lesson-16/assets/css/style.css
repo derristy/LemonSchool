@@ -4,6 +4,7 @@
     --color-grey: #CBCBCB;
     --color-green: #89C249;
     --bg-primary: #363A4D;
+    --margin-bottom: 97px;
 }
 
 @font-face {
@@ -58,7 +59,7 @@ main {
 }
 
 .first-screen {
-    margin-bottom: 97px;
+    margin-bottom: var(--margin-bottom);
 }
 
 .first-screen-slider__item {
@@ -260,6 +261,16 @@ main {
     justify-content: center;
 }
 
+.template-title--about {
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.template-title--about .template-border-decoration {
+    margin: 19px 0 44px 0;
+}
+
 .template-title h3 {
     font-weight: 700;
     font-size: 36px;
@@ -326,9 +337,10 @@ main {
 }
 
 .advantages {
-    background: linear-gradient(0deg, #363A4D, #363A4D), #F7F7F7;
+    background: linear-gradient(0deg, var(--bg-primary), var(--bg-primary)), #F7F7F7;
     border-radius: 20px;
     padding: 90px 0 110px;
+    margin-bottom: var(--margin-bottom);
 }
 
 .advantages .row div:not(.slick-slide):nth-child(n+5) {
@@ -368,4 +380,14 @@ main {
 
 .advantages .slick-dots {
     bottom: -100px;
+}
+
+.about {
+    margin-bottom: var(--margin-bottom);
+}
+
+.about-content {
+    color: var(--color-white);
+    font-size: 18px;
+    line-height: 170%;
 }
