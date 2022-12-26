@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-16</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="master-tao">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/brand.svg" alt="Master Tao">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Цены и сроки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О компании</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Оформить груз</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="btn-orange">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-screen">
+            <div class="first-screen-slider">
+                <div class="first-screen-slider__item bg-1">
+                    <div class="container">
+                        <h1 class="first-screen-title">Прямое КАРГО из Китая</h1>
+                        <p class="first-screen-subtitle">Доставляем любые грузы из Китая по честной цене</p>
+                        <button class="btn-orange">Рассчитать стоимость <img src="assets/images/arrow-right.svg"
+                                alt="Arrow right"></button>
+                    </div>
+                </div>
+                <div class="first-screen-slider__item bg-2">
+                    <div class="container">
+                        <h1 class="first-screen-title">Выкуп товара с ТаоБао, 1688</h1>
+                        <p class="first-screen-subtitle">Выкуп и доставка товаров с китайских торговых площадок. </p>
+                        <button class="btn-orange">Рассчитать стоимость <img src="assets/images/arrow-right.svg"
+                                alt="Arrow right"></button>
+                    </div>
+                </div>
+                <div class="first-screen-slider__item bg-3">
+                    <div class="container">
+                        <h1 class="first-screen-title">Экспресс авто доставка</h1>
+                        <p class="first-screen-subtitle">Доставка автотранспортом из Китая в Россию от 15 дней, от
+                            $0,5/кг</p>
+                        <button class="btn-orange">Рассчитать стоимость <img src="assets/images/arrow-right.svg"
+                                alt="Arrow right"></button>
+                    </div>
+                </div>
+                <div class="first-screen-slider__item bg-4">
+                    <div class="container">
+                        <h1 class="first-screen-title">Lorem ipsum dolor sit amet.</h1>
+                        <p class="first-screen-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Minima, quae?</p>
+                        <button class="btn-orange">Рассчитать стоимость <img src="assets/images/arrow-right.svg"
+                                alt="Arrow right"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="calc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="template-title">
+                            <h3>
+                                <p>Получить рассчет стоимости</p>
+                                <p>доставки вашего груза <span class="template-border-decoration"></span></p>
+                            </h3>
+                        </div>
+                        <form action="#" method="GET" class="form">
+                            <div class="steps">
+                                <div class="steps-item active">1</div>
+                                <div class="steps-item">2</div>
+                                <div class="steps-item">3</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="step1-category" class="form-label">Категория товара:</label>
+                                    <input type="text" id="step1-category" name="step1-category" class="form-input"
+                                        placeholder="Категория товара">
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-price" class="form-label">Стоимость груза:</label>
+                                    <input type="text" id="step1-price" name="step1-price" class="form-input"
+                                        placeholder="Введите стоимость">
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-weight" class="form-label">Вес груза (кг):</label>
+                                    <input type="text" id="step1-weight" name="step1-weight" class="form-input"
+                                        placeholder="Введите вес">
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-volume" class="form-label">Объем груза (м3):</label>
+                                    <input type="text" id="step1-volume" name="step1-volume" class="form-input"
+                                        placeholder="Введите объем">
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" class="input-checkbox" name="step1-belay"
+                                            id="step1-belay">
+                                        <label for="step1-belay" class="form-label p-2">Страховка</label>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <input type="checkbox" class="input-checkbox" name="step1-customs"
+                                            id="step1-customs">
+                                        <label for="step1-customs" class="form-label p-2">Таможенное оформление</label>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <label for="step1-tnved" class="form-label">Код ТН ВЭД:</label>
+                                    <input type="text" id="step1-tnved" name="step1-tnved" class="form-input"
+                                        placeholder="Введите код">
+                                </div>
+                                <div class="col-12">
+                                    <input type="file" name="step1-file" id="step1-file" class="input-file" multiple>
+                                    <div class="step1-file-name" id="step1-file-name"></div>
+                                    <button type="button" class="btn-upload" id="step1-file-btn">Загрузить фото
+                                        товара</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn-orange">Следующий шаг <img src="assets/images/arrow-right.svg"
+                                            alt="Arrow right"></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets/images/calc/man.svg" class="img-fluid short-man" alt="Short man">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantages">
+            <div class="container">
+                <div class="template-title decoration">
+                    <h3>Почему стоит выбрать именно нас?</h3>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/surface.svg" alt="Surface">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Таможенное <br> оформление груза</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/check-mark.svg" alt="Check Mark">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Страховка груза</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/magnifying-glass.svg" alt="Magnifying Glass">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Проверка товара <br> на брак</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/delivery-truck.svg" alt="Delivery Truck">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Доставка <br> в любой город РФ</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/speech-bubble.svg" alt="Speech Bubble">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Консолидация <br> на складе</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/like.svg" alt="Like">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Ответственное <br> хранение груза</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/credit-card.svg" alt="Credit Card">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Помощь в <br> оплате товара</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="advantages-box">
+                            <div class="advantages-item">
+                                <img src="assets/images/advantages/stack.svg" alt="Stack">
+                            </div>
+                        </div>
+                        <p class="advantages-title">Упаковка, переупаковка, <br> паллетирование груза к <br>
+                            международной перевозке</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.2.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WZF15NX96"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WZF15NX96');
+    </script>
+</body>
+
+</html>
