@@ -201,7 +201,6 @@ main {
 }
 
 .form {
-    margin-top: 30px;
     background: var(--bg-primary);
     padding: 70px 50px 41px;
     border-radius: 20px;
@@ -209,12 +208,16 @@ main {
     margin-bottom: 110px;
 }
 
-.form-input {
+.form-input, .form-textarea {
     width: 100%;
     border-radius: 10px;
     border: none;
     padding: 19px 20px;
     margin-bottom: 20px;
+}
+
+.form-textarea {
+    resize: none;
 }
 
 .form-input:focus {
@@ -226,6 +229,21 @@ main {
     font-weight: 600;
     font-size: 15px;
     line-height: 126%;
+}
+
+.form-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 126%;
+    color: var(--color-white);
+    margin-bottom: 8px;
+}
+
+.form-subtitle {
+    font-size: 17px;
+    line-height: 126%;
+    color: var(--color-white);
+    margin-bottom: 23px;
 }
 
 .btn-upload {
@@ -297,39 +315,6 @@ main {
     margin: 0 0 11px 10px;
 }
 
-.steps {
-    position: absolute;
-    top: -30px;
-    left: 50px;
-    display: flex;
-}
-
-.steps-item {
-    width: 60px;
-    height: 60px;
-    background: #282B38;
-    border-radius: 90px;
-    border: 2px solid var(--bg-primary);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 41px;
-    color:#BFBFBF;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 126%;
-    text-transform: uppercase;
-}
-
-.steps-item.active {
-    color: var(--color-white);
-    background: var(--color-green);
-}
-
-.steps-item:last-child {
-    margin-right: 0;
-}
-
 .input-checkbox {
     accent-color: var(--color-white);
     width: 24px;
@@ -390,4 +375,63 @@ main {
     color: var(--color-white);
     font-size: 18px;
     line-height: 170%;
+}
+
+.faq {
+    margin-bottom: var(--margin-bottom);
+}
+
+.master-tao .accordion {
+    --bs-accordion-border-radius: 10px;
+    --bs-accordion-inner-border-radius: 5px;
+    --bs-accordion-border-width: 1;
+    --bs-accordion-border-color: #3A444E;
+    --bs-accordion-btn-bg: #3A444E;
+    --bs-accordion-btn-color: var(--color-white);
+    --bs-accordion-bg: var(--color-white);
+    --bs-accordion-active-bg: var(--color-white);
+    --bs-accordion-active-color: #282B38;
+    --bs-accordion-color: #282B38;
+    --bs-accordion-btn-icon-transform: rotate(-90deg);
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_5858_63)'%3E%3Cpath d='M0.421875 13.5C0.421875 6.27539 6.27539 0.421875 13.5 0.421875C20.7246 0.421875 26.5781 6.27539 26.5781 13.5C26.5781 20.7246 20.7246 26.5781 13.5 26.5781C6.27539 26.5781 0.421875 20.7246 0.421875 13.5ZM13.5 24.8906C19.7596 24.8906 24.8906 19.8229 24.8906 13.5C24.8906 7.24043 19.8229 2.10938 13.5 2.10938C7.24043 2.10938 2.10938 7.17715 2.10938 13.5C2.10938 19.7596 7.17715 24.8906 13.5 24.8906ZM14.1592 20.0127L20.2289 13.9482C20.4768 13.7004 20.4768 13.2996 20.2289 13.0518L14.1592 6.9873C13.9113 6.73945 13.5105 6.73945 13.2627 6.9873L12.8988 7.35117C12.651 7.59902 12.651 8.01035 12.9094 8.25293L17.4182 12.6035H7.38281C7.03477 12.6035 6.75 12.8883 6.75 13.2363V13.7637C6.75 14.1117 7.03477 14.3965 7.38281 14.3965H17.4182L12.9041 18.7471C12.651 18.9949 12.6457 19.401 12.8936 19.6488L13.2574 20.0127C13.5105 20.2605 13.9113 20.2605 14.1592 20.0127Z' fill='white'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_5858_63'%3E%3Crect width='27' height='27' fill='white' transform='matrix(-1 0 0 1 27 0)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_5858_63)'%3E%3Cpath d='M0.421875 13.5C0.421875 6.27539 6.27539 0.421875 13.5 0.421875C20.7246 0.421875 26.5781 6.27539 26.5781 13.5C26.5781 20.7246 20.7246 26.5781 13.5 26.5781C6.27539 26.5781 0.421875 20.7246 0.421875 13.5ZM13.5 24.8906C19.7596 24.8906 24.8906 19.8229 24.8906 13.5C24.8906 7.24043 19.8229 2.10938 13.5 2.10938C7.24043 2.10938 2.10938 7.17715 2.10938 13.5C2.10938 19.7596 7.17715 24.8906 13.5 24.8906ZM14.1592 20.0127L20.2289 13.9482C20.4768 13.7004 20.4768 13.2996 20.2289 13.0518L14.1592 6.9873C13.9113 6.73945 13.5105 6.73945 13.2627 6.9873L12.8988 7.35117C12.651 7.59902 12.651 8.01035 12.9094 8.25293L17.4182 12.6035H7.38281C7.03477 12.6035 6.75 12.8883 6.75 13.2363V13.7637C6.75 14.1117 7.03477 14.3965 7.38281 14.3965H17.4182L12.9041 18.7471C12.651 18.9949 12.6457 19.401 12.8936 19.6488L13.2574 20.0127C13.5105 20.2605 13.9113 20.2605 14.1592 20.0127Z' fill='%23E58D35'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_5858_63'%3E%3Crect width='27' height='27' fill='white' transform='matrix(-1 0 0 1 27 0)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    --bs-accordion-body-padding-y: 10px;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
+.master-tao .accordion-item {
+    margin-bottom: 16px;
+}
+
+.master-tao .accordion-item:last-child {
+    margin-bottom: 0;
+}
+
+.master-tao .accordion-item {
+    border-bottom-left-radius: var(--bs-accordion-border-radius);
+    border-bottom-right-radius: var(--bs-accordion-border-radius);
+    border-top-right-radius: var(--bs-accordion-border-radius);
+    border-top-left-radius: var(--bs-accordion-border-radius);
+}
+
+.master-tao .accordion-item .accordion-button {
+    border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+    border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+}
+
+.master-tao .accordion-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 124.5%;
+}
+
+.master-tao .accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.master-tao .accordion-body {
+    font-size: 17px;
+    line-height: 144.5%;
 }
