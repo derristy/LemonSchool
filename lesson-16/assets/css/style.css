@@ -473,4 +473,5 @@ main {
 
 .txt-img {
     box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
+    border-radius: 20px;
 }
