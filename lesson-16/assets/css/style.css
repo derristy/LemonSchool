@@ -5,6 +5,7 @@
     --color-green: #89C249;
     --bg-primary: #363A4D;
     --margin-bottom: 97px;
+    --padding: 90px 0 110px;
 }
 
 @font-face {
@@ -276,7 +277,8 @@ main {
     padding-bottom: 19px;
     margin-bottom: 49px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .template-title--about {
@@ -294,6 +296,11 @@ main {
     font-size: 36px;
     line-height: 124.5%;
     text-transform: uppercase;
+}
+
+.template-title p {
+    margin-top: 10px;
+    font-size: 24px;
 }
 
 .template-title.decoration:before {
@@ -322,9 +329,9 @@ main {
 }
 
 .advantages {
-    background: linear-gradient(0deg, var(--bg-primary), var(--bg-primary)), #F7F7F7;
+    background: var(--bg-primary);
     border-radius: 20px;
-    padding: 90px 0 110px;
+    padding: var(--padding);
     margin-bottom: var(--margin-bottom);
 }
 
@@ -384,7 +391,7 @@ main {
 .master-tao .accordion {
     --bs-accordion-border-radius: 10px;
     --bs-accordion-inner-border-radius: 5px;
-    --bs-accordion-border-width: 1;
+    --bs-accordion-border-width: 0px;
     --bs-accordion-border-color: #3A444E;
     --bs-accordion-btn-bg: #3A444E;
     --bs-accordion-btn-color: var(--color-white);
@@ -434,4 +441,36 @@ main {
 .master-tao .accordion-body {
     font-size: 17px;
     line-height: 144.5%;
+}
+
+.txt {
+    background: var(--bg-primary);
+    margin-bottom: var(--margin-bottom);
+    padding: var(--padding);
+}
+
+.txt-content {
+    color: var(--color-white);
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.txt-content ul li {
+    margin-bottom: 20px;
+}
+
+.txt-content ul li:last-child {
+    margin-bottom: 0;
+}
+
+.txt .row div:nth-child(n+3){
+    margin-top: 75px;
+}
+
+.txt .row div button {
+    margin-top: 20px;
+}
+
+.txt-img {
+    box-shadow: 5px 15px 40px rgba(11, 24, 97, 0.32);
 }
