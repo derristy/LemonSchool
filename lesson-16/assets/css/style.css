@@ -6,8 +6,6 @@
     --bg-primary: #363A4D;
     --margin-bottom: 97px;
     --padding: 90px 0 110px;
-    --margin-lr: 50px;
-    --margin-lr-mobile: 20px;
 }
 
 @font-face {
@@ -38,11 +36,6 @@
     background: #282B38;
     font-family: "Proxima Nova", sans-serif;
 }
-
-/* header {
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
-} */
 
 .master-tao .navbar-toggler {
     border: 0;
