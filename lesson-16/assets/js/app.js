@@ -1,8 +1,9 @@
 $(document).ready(() => {
     $('.first-screen-slider').slick({
         dots: true,
+        autoplay: true,
         responsive: [{
-            breakpoint: 992,
+            breakpoint: 576,
             settings: {
                 arrows: false
             }
@@ -38,6 +39,7 @@ function advantages_slider(){
             element.slick({
                 arrows: false,
                 dots: true,
+                autoplay: true,
                 mobileFirst: true
             });
         }

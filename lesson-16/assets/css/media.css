@@ -1,0 +1,11 @@
+@media (max-width: 991px){
+    .master-tao .navbar-collapse {
+        margin: 20px -12px 0;
+        padding: 37px 12px 60px;
+        background: var(--bg-primary);
+    }
+
+    .master-tao .nav-link {
+        font-size: 24px;
+    }
+}

@@ -112,7 +112,8 @@
 .first-screen-slider__item {
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 163px 0 0 0;
+    background-position: center;
+    padding: 163px 100px 0 100px;
     min-height: 700px;
     border-radius: 20px;
 }
@@ -153,7 +154,7 @@
 .master-tao .slick-prev {
     position: absolute;
     top: 50%;
-    left: 15px;
+    left: 50px;
     transform: translate(0, -50%);
     z-index: 5;
     height: 30px;
@@ -169,7 +170,7 @@
 .master-tao .slick-next {
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 50px;
     transform: translate(0, -50%);
     z-index: 5;
     height: 30px;
