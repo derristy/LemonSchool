@@ -1,6 +1,12 @@
 $(document).ready(() => {
     $('.first-screen-slider').slick({
         dots: true,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+                arrows: false
+            }
+        }]
     });
 
     advantages_slider();

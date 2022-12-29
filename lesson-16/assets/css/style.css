@@ -6,6 +6,8 @@
     --bg-primary: #363A4D;
     --margin-bottom: 97px;
     --padding: 90px 0 110px;
+    --margin-lr: 50px;
+    --margin-lr-mobile: 20px;
 }
 
 @font-face {
@@ -36,6 +38,11 @@
     background: #282B38;
     font-family: "Proxima Nova", sans-serif;
 }
+
+/* header {
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
+} */
 
 .master-tao .navbar-toggler {
     border: 0;
@@ -87,10 +94,6 @@
     height: 0;
 }
 
-main {
-    margin: 0 50px;
-}
-
 .master-tao .nav-link {
     color: var(--color-white);
     font-size: 16px;
@@ -111,6 +114,8 @@ main {
 
 .first-screen {
     margin-bottom: var(--margin-bottom);
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .first-screen-slider__item {
@@ -157,7 +162,7 @@ main {
 .master-tao .slick-prev {
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 15px;
     transform: translate(0, -50%);
     z-index: 5;
     height: 30px;
@@ -173,7 +178,7 @@ main {
 .master-tao .slick-next {
     position: absolute;
     top: 50%;
-    right: 100px;
+    right: 15px;
     transform: translate(0, -50%);
     z-index: 5;
     height: 30px;
@@ -184,6 +189,10 @@ main {
     border-bottom-style: none;
     background: none;
     font-size: 0;
+}
+
+.master-tao .slick-prev:hover, .master-tao .slick-next:hover {
+    border-color: var(--color-green);
 }
 
 .master-tao .slick-dots {
@@ -239,6 +248,11 @@ main {
 .btn-orange img {
     margin-left: 49px;
     margin-right: -10px;
+}
+
+.calc {
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .calc .container {
@@ -383,6 +397,8 @@ main {
     border-radius: 20px;
     padding: var(--padding);
     margin-bottom: var(--margin-bottom);
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .advantages .row div:not(.slick-slide):nth-child(n+5) {
@@ -426,6 +442,8 @@ main {
 
 .about {
     margin-bottom: var(--margin-bottom);
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .about-content {
@@ -436,6 +454,8 @@ main {
 
 .faq {
     margin-bottom: var(--margin-bottom);
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .master-tao .accordion {
@@ -497,6 +517,9 @@ main {
     background: var(--bg-primary);
     margin-bottom: var(--margin-bottom);
     padding: var(--padding);
+    border-radius: 20px;
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .txt-content {
@@ -533,6 +556,8 @@ main {
 
 .footer {
     margin-bottom: 60px;
+    margin-left: var(--margin-lr);
+    margin-right: var(--margin-lr);
 }
 
 .footer-border {
