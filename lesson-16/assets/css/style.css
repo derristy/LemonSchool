@@ -107,8 +107,6 @@
 
 .first-screen {
     margin-bottom: var(--margin-bottom);
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .first-screen-slider__item {
@@ -241,11 +239,6 @@
 .btn-orange img {
     margin-left: 49px;
     margin-right: -10px;
-}
-
-.calc {
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .calc .container {
@@ -390,8 +383,6 @@
     border-radius: 20px;
     padding: var(--padding);
     margin-bottom: var(--margin-bottom);
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .advantages .row div:not(.slick-slide):nth-child(n+5) {
@@ -435,8 +426,6 @@
 
 .about {
     margin-bottom: var(--margin-bottom);
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .about-content {
@@ -447,8 +436,6 @@
 
 .faq {
     margin-bottom: var(--margin-bottom);
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .master-tao .accordion {
@@ -511,8 +498,6 @@
     margin-bottom: var(--margin-bottom);
     padding: var(--padding);
     border-radius: 20px;
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .txt-content {
@@ -549,8 +534,6 @@
 
 .footer {
     margin-bottom: 60px;
-    margin-left: var(--margin-lr);
-    margin-right: var(--margin-lr);
 }
 
 .footer-border {
