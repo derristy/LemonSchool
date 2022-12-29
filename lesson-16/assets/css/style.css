@@ -37,6 +37,56 @@
     font-family: "Proxima Nova", sans-serif;
 }
 
+.master-tao .navbar-toggler {
+    border: 0;
+}
+
+.master-tao .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.master-tao .navbar-toggler-icon {
+    background: var(--color-white);
+    height: 2px;
+    position: relative;
+}
+
+.master-tao .navbar-toggler-icon::before {
+    position: absolute;
+    top: -9px;
+    left: 0;
+    background: var(--color-white);
+    content: "";
+    width: 100%;
+    height: 2px;
+    transition: transform .3s;
+}
+
+.master-tao .navbar-toggler-icon::after {
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    background: var(--color-white);
+    content: "";
+    width: 100%;
+    height: 2px;
+    transition: transform .3s;
+}
+
+.master-tao .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    top: -1px;
+    transform: rotate(45deg);
+}
+
+.master-tao .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+    bottom: -1px;
+    transform: rotate(-45deg);
+}
+
+.master-tao .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    height: 0;
+}
+
 main {
     margin: 0 50px;
 }
