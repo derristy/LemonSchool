@@ -1,11 +1,71 @@
-@media (max-width: 991px){
-    .master-tao .navbar-collapse {
-        margin: 20px -12px 0;
-        padding: 37px 12px 60px;
-        background: var(--bg-primary);
+@media only screen and (max-width: 1399px){
+    .short-man {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    :root {
+        --margin-bottom: 55px;
     }
 
     .master-tao .nav-link {
         font-size: 24px;
+    }
+
+    .section-margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .first-screen-slider__item {
+        border-radius: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .master-tao .navbar {
+        margin: 20px 0;
+    }
+
+    .advantages {
+        border-radius: 0;
+    }
+
+    .txt {
+        border-radius: 0;
+    }
+
+    .first-screen-title {
+        font-size: 32px;
+    }
+
+    .first-screen-subtitle {
+        font-size: 16px;
+    }
+
+    .template-title {
+        margin-bottom: 20px;
+    }
+
+    .template-title h3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .first-screen-slider__item {
+        min-height: 600px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .first-screen-slider__item {
+        border-radius: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 552px;
     }
 }
