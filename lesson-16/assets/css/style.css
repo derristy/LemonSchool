@@ -427,7 +427,7 @@
 }
 
 .advantages .slick-dots {
-    bottom: -100px;
+    bottom: -50px;
 }
 
 .about {
@@ -464,10 +464,6 @@
 
 .master-tao .accordion-item {
     margin-bottom: 16px;
-}
-
-.master-tao .accordion-item:last-child {
-    margin-bottom: 0;
 }
 
 .master-tao .accordion-item {

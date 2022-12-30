@@ -44,12 +44,12 @@
         font-size: 16px;
     }
 
-    .template-title {
-        margin-bottom: 20px;
-    }
-
     .template-title h3 {
         font-size: 24px;
+    }
+
+    .about-content {
+        font-size: 16px;
     }
 }
 
@@ -67,5 +67,9 @@
         padding-left: 20px;
         padding-right: 20px;
         min-height: 552px;
+    }
+
+    .form {
+        padding: 50px 20px;
     }
 }
