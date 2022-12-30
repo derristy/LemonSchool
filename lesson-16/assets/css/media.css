@@ -51,6 +51,14 @@
     .about-content {
         font-size: 16px;
     }
+    
+    .footer-nav {
+        display: none;
+    }
+
+    .txt-content {
+        margin-top: 36px;
+    }
 }
 
 @media only screen and (max-width: 767px){

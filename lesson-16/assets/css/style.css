@@ -5,7 +5,7 @@
     --color-green: #89C249;
     --bg-primary: #363A4D;
     --margin-bottom: 97px;
-    --padding: 90px 0 110px;
+    --padding: 90px 20px 110px;
     --section-margin: 50px;
 }
 
@@ -352,9 +352,11 @@
     font-size: 36px;
     line-height: 124.5%;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .template-title p {
+    text-align: center;
     margin-top: 10px;
     font-size: 24px;
 }
@@ -502,6 +504,14 @@
     border-radius: 20px;
 }
 
+.txt .row {
+    margin-bottom: 75px;
+}
+
+.txt .row:last-child {
+    margin-bottom: 0;
+}
+
 .txt-content {
     color: var(--color-white);
     font-size: 17px;
@@ -519,10 +529,6 @@
 
 .txt-content ul li:last-child {
     margin-bottom: 0;
-}
-
-.txt .row div:nth-child(n+3){
-    margin-top: 75px;
 }
 
 .txt .row div button {
