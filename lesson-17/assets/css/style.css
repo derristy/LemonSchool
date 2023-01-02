@@ -228,7 +228,7 @@
     transition: background .5s, color .5s;
 }
 
-.btn-orange:hover {
+.btn-orange:not(.btn-orange--transparent):hover {
     background: var(--color-white);
     color: var(--color-orange);
 }
@@ -236,6 +236,18 @@
 .btn-orange img {
     margin-left: 49px;
     margin-right: -10px;
+}
+
+.btn-orange--transparent {
+    background: linear-gradient(to right, var(--color-orange), var(--color-orange));
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 1s, color 1s;
+}
+
+.btn-orange--transparent:hover {
+    color: #fff;
+    background-size: 100% 100%;
 }
 
 .calc div {
@@ -591,4 +603,84 @@
 
 .delivery {
     margin-bottom: var(--margin-bottom);
+}
+
+.delivery-slider-item {
+    background: var(--bg-primary);
+    max-width: 360px;
+    min-width: 360px;
+    border-radius: 20px;
+    color: var(--color-white);
+    margin-right: 15px;
+}
+
+.delivery-slider-item:last-child {
+    margin-right: 0;
+}
+
+.delivery-slider-img {
+    border-radius: 20px 20px 0 0;
+}
+
+.delivery-slider-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 24px 20px 27px 20px;
+}
+
+.delivery-slider-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 124.5%;
+    margin-bottom: 13px;
+}
+
+.delivery-slider-card {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.delivery-slider-day, .delivery-slider-weight {
+    font-size: 16px;
+    line-height: 124.5%;
+    display: flex;
+    align-items: center;
+}
+
+.delivery-slider-day {
+    margin-right: 30px;
+}
+
+.delivery-slider-day:before {
+    content: url("../images/delivery/calendar.svg");
+    padding-right: 10px;
+}
+
+.delivery-slider-weight:before {
+    content: url("../images/delivery/box.svg");
+    padding-right: 10px;
+}
+
+.delivery-slider-price {
+    color: #A3A3A3;
+    font-size: 22px;
+    line-height: 124.5%;
+}
+
+.delivery-slider-price span {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.delivery-slider-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-slider-buttons button {
+    padding: 14px 20px;
 }
