@@ -604,3 +604,7 @@
     font-size: 16px;
     line-height: 160.5%;
 }
+
+.delivery {
+    margin-bottom: var(--margin-bottom);
+}
