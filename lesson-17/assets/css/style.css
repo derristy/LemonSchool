@@ -163,7 +163,7 @@
 }
 
 .delivery-slider .slick-prev {
-    left: -25px;
+    left: 0;
     border-color: #6C6F7F;
 }
 
@@ -184,7 +184,7 @@
 }
 
 .delivery-slider .slick-next {
-    right: -25px;
+    right: 0;
     border-color: #6C6F7F;
 }
 
@@ -619,12 +619,11 @@
     margin-bottom: var(--margin-bottom);
 }
 
-.delivery-slider-wrapper {
+.delivery-slider-item {
     background: var(--bg-primary);
-    max-width: 360px;
-    min-width: 360px;
     border-radius: 20px;
     color: var(--color-white);
+    width: 360px;
     margin: 0 auto;
 }
 

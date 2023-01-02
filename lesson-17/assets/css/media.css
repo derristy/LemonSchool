@@ -96,4 +96,12 @@
     .form {
         padding: 50px 20px;
     }
+
+    .delivery-slider-item {
+        border-radius: 0;
+    }
+    
+    .delivery-slider-img {
+        border-radius: 0;
+    }
 }

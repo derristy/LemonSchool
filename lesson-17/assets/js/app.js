@@ -17,6 +17,32 @@ $(document).ready(() => {
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 3,
+        responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 991,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+              }
+            },
+          ]
       });
 
     advantages_slider();
