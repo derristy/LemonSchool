@@ -95,7 +95,7 @@
 
 .master-tao .nav-link {
     color: var(--color-white);
-    font-size: 16px;
+    font-size: 15px;
     line-height: 146%;
     transition: color .5s;
 }

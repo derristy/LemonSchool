@@ -26,6 +26,22 @@
 
     .master-tao .navbar {
         margin: 20px 0;
+        padding: 0;
+    }
+
+    .master-tao .navbar-collapse {
+        padding: 37px 12px 60px 12px;
+        margin: 19px -12px -20px -12px;
+        background: var(--bg-primary);
+    }
+
+    .master-tao .navbar-collapse .btn-orange {
+        margin: 0 auto;
+    }
+
+    .master-tao .nav-item {
+        text-align: center;
+        margin-bottom: 15px;
     }
 
     .advantages {
