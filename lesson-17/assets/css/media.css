@@ -111,3 +111,10 @@
         max-width: 360px;
     }
 }
+
+@media only screen and (max-width: 385px){
+    .delivery-slider {
+        margin-right: -10px;
+        margin-left: -5px;
+    }
+}
