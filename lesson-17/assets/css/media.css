@@ -4,6 +4,12 @@
     }
 }
 
+@media only screen and (max-width: 1199px){
+    .delivery-slider {
+        max-width: 744px;
+    }
+}
+
 @media only screen and (max-width: 991px){
     :root {
         --margin-bottom: 55px;
@@ -74,6 +80,18 @@
 
     .txt-content {
         margin-top: 36px;
+    }
+
+    .delivery-slider {
+        max-width: 372px;
+    }
+
+    .delivery-slider .slick-prev {
+        left: -25px;
+    }
+
+    .delivery-slider .slick-next {
+        right: -25px;
     }
 }
 

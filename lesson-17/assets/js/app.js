@@ -16,18 +16,18 @@ $(document).ready(() => {
         infinite: true,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         responsive: [
             {
               breakpoint: 1200,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 dots: true
               }
             },
             {
-              breakpoint: 991,
+              breakpoint: 992,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1
