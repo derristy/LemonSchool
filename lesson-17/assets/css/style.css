@@ -163,7 +163,7 @@
 }
 
 .delivery-slider .slick-prev {
-    left: -50px;
+    left: -25px;
     border-color: #6C6F7F;
 }
 
@@ -184,7 +184,7 @@
 }
 
 .delivery-slider .slick-next {
-    right: -50px;
+    right: -25px;
     border-color: #6C6F7F;
 }
 

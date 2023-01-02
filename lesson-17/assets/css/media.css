@@ -85,14 +85,6 @@
     .delivery-slider {
         max-width: 372px;
     }
-
-    .delivery-slider .slick-prev {
-        left: -25px;
-    }
-
-    .delivery-slider .slick-next {
-        right: -25px;
-    }
 }
 
 @media only screen and (max-width: 767px){
