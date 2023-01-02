@@ -146,22 +146,6 @@
     margin-bottom: 37px;
 }
 
-.first-screen-slider__item.bg-1 {
-    background-image: url("../images/first-screen/first-screen-1.png")
-}
-
-.first-screen-slider__item.bg-2 {
-    background-image: url("../images/first-screen/first-screen-2.png")
-}
-
-.first-screen-slider__item.bg-3 {
-    background-image: url("../images/first-screen/first-screen-3.png")
-}
-
-.first-screen-slider__item.bg-4 {
-    background-image: url("../images/first-screen/first-screen-4.png")
-}
-
 .master-tao .slick-prev {
     position: absolute;
     top: 50%;
@@ -254,7 +238,7 @@
     margin-right: -10px;
 }
 
-.calc .container {
+.calc div {
     position: relative;
 }
 
