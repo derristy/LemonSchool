@@ -14,7 +14,7 @@ $(document).ready(() => {
         dots: false,
         arrows: true,
         infinite: true,
-        speed: 300,
+        autoplay: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
