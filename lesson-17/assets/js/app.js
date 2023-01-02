@@ -13,7 +13,7 @@ $(document).ready(() => {
     $('.delivery-slider').slick({
         dots: false,
         arrows: true,
-        // autoplay: true,
+        autoplay: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
