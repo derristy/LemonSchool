@@ -97,6 +97,11 @@
     color: var(--color-white);
     font-size: 16px;
     line-height: 146%;
+    transition: color .5s;
+}
+
+.master-tao .nav-link:hover {
+    color: var(--color-orange);
 }
 
 .master-tao .nav-item {
