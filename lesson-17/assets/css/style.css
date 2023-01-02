@@ -698,3 +698,31 @@
 .delivery-slider-buttons button {
     padding: 14px 20px;
 }
+
+.services {
+    background: var(--bg-primary);
+    border-radius: 20px;
+    padding: var(--padding);
+    margin-bottom: var(--margin-bottom);
+}
+
+.delivery-slider-item--services {
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.delivery-slider-content--services {
+    align-items: start;
+}
+
+.delivery-slider-description {
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 124.5%;
+}
+
+.btn-orange--services {
+    padding: 14px 30px;
+}

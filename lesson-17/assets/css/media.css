@@ -58,6 +58,10 @@
         border-radius: 0;
     }
 
+    .services {
+        border-radius: 0;
+    }
+
     .first-screen-title {
         font-size: 32px;
     }
@@ -113,8 +117,13 @@
 }
 
 @media only screen and (max-width: 385px){
-    .delivery-slider {
+    .delivery .delivery-slider {
         margin-right: -10px;
         margin-left: -5px;
+    }
+
+    .services .delivery-slider {
+        margin-right: -25px;
+        margin-left: -24px;
     }
 }
