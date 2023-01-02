@@ -114,23 +114,9 @@
     .delivery-slider {
         max-width: 360px;
     }
-}
 
-@media only screen and (max-width: 393px){
-    .services .delivery-slider {
-        margin-right: -25px;
-        margin-left: -15px;
-    }
-}
-
-@media only screen and (max-width: 385px){
-    .delivery .delivery-slider {
-        margin-right: -10px;
-        margin-left: -5px;
-    }
-
-    .services .delivery-slider {
-        margin-right: -25px;
-        margin-left: -24px;
+    .delivery .container-lg, .services .container-lg {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
