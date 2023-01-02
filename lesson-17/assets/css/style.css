@@ -235,17 +235,18 @@
 .btn-orange {
     background: var(--color-orange);
     color: var(--color-white);
-    border: none;
+    border: 2px solid var(--color-orange);
     border-radius: 90px;
     font-weight: 600;
     font-size: 16px;
     display: inline-flex;
     padding: 14px 27px;
-    transition: opacity .5s;
+    transition: background .5s, color .5s;
 }
 
 .btn-orange:hover {
-    opacity: .7;
+    background: var(--color-white);
+    color: var(--color-orange);
 }
 
 .btn-orange img {
