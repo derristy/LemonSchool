@@ -526,9 +526,9 @@
 .master-tao .accordion {
     --bs-accordion-border-radius: 10px;
     --bs-accordion-inner-border-radius: 5px;
-    --bs-accordion-border-width: 0px;
+    --bs-accordion-border-width: 2px;
     --bs-accordion-border-color: #3A444E;
-    --bs-accordion-btn-bg: #3A444E;
+    --bs-accordion-btn-bg: #282B38;
     --bs-accordion-btn-color: var(--color-white);
     --bs-accordion-bg: var(--color-white);
     --bs-accordion-active-bg: var(--color-white);
@@ -546,6 +546,9 @@
 }
 
 .master-tao .accordion-item {
+    border-top-style: solid;
+    border-top-color: var(--bs-accordion-border-color);
+    border-top-width: var(--bs-accordion-border-width);
     border-bottom-left-radius: var(--bs-accordion-border-radius);
     border-bottom-right-radius: var(--bs-accordion-border-radius);
     border-top-right-radius: var(--bs-accordion-border-radius);
