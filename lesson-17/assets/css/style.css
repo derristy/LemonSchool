@@ -541,6 +541,11 @@
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
+.master-tao .accordion-item:has(.accordion-button.collapsed){
+    background-color: transparent;
+    transition: background-color .5s;
+}
+
 .master-tao .accordion-item {
     margin-bottom: 16px;
 }
