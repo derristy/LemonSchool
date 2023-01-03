@@ -641,6 +641,11 @@
     color: #85899C;
     font-size: 16px;
     line-height: 160.5%;
+    transition: color .5s;
+}
+
+.footer-link:hover {
+    color: var(--color-white);
 }
 
 .delivery {
