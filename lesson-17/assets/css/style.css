@@ -301,17 +301,23 @@
 .form-input, .form-textarea {
     width: 100%;
     border-radius: 10px;
-    border: none;
+    border: 2px solid transparent;
     padding: 19px 20px;
     margin-bottom: 20px;
+    transition: background .5s, border .5s;
 }
 
 .form-textarea {
     resize: none;
 }
 
-.form-input:focus {
+.form-input:focus, .form-textarea:focus {
     outline: none;
+    border: 2px solid var(--color-orange);
+}
+
+.form-input:hover, .form-textarea:hover {
+    background: rgb(185, 174, 174);
 }
 
 .form-label {
@@ -347,6 +353,11 @@
     font-size: 15px;
     line-height: 126%;
     margin-bottom: 26px;
+    transition: border-color .5s;
+}
+
+.btn-upload:hover {
+    border-color: var(--color-white);
 }
 
 .input-file {
