@@ -1,4 +1,6 @@
 $(document).ready(() => {
+    $("body").removeClass("load");
+
     $('.first-screen-slider').slick({
         dots: true,
         autoplay: true,
