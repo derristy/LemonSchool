@@ -1,0 +1,38 @@
+.grid-template-columns {
+    grid-template-columns: 100px auto 100px;
+}
+
+.grid-template-rows {
+    grid-template-rows: 100px auto 100px;
+}
+
+.column-gap {
+    column-gap: 50px;
+}
+
+.row-gap {
+    row-gap: 50px;
+}
+
+.grid-template-areas {
+    grid-template-areas:
+    'header header'
+    'sidebar content'
+    'footer footer';
+}
+
+.grid-area-header {
+    grid-area: header;
+}
+
+.gria-area-sidebar {
+    grid-area: sidebar;
+}
+
+.grid-area-content {
+    grid-area: content;
+}
+
+.grid-area-footer {
+    grid-area: footer;
+}
