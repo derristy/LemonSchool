@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animation | Lesson-17_1</title>
+  <title>Centered | Lesson-17_1</title>
 
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
@@ -37,67 +37,37 @@
             <a class="nav-link" href="form.html">Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="animation.html">Animation</a>
+            <a class="nav-link" href="animation.html">Animation</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="javascript.html">Javascript</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="centered.html">Centered</a>
+            <a class="nav-link active" href="centered.html">Centered</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-12">
-        <ul class="social-icons">
-          <li class="social-icons__item facebook"></li>
-          <li class="social-icons__item google"></li>
-          <li class="social-icons__item linkedin"></li>
-          <li class="social-icons__item pinterest"></li>
-          <li class="social-icons__item skype"></li>
-          <li class="social-icons__item twitter"></li>
-          <li class="social-icons__item youtube"></li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-lg-6 mb-5 mt-5">
-        <div class="cat-sprite-y"></div>
-      </div>
-      <div class="col-12 col-lg-6 mb-5 mt-5">
-        <div class="monster-sprite-x"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-lg-6 mb-5 mt-5">
-        <p class="fs-3">translate(-100px, 0);</p>
-        <div class="transform-animation transform-animation--translate">
-          <img src="assets/images/servers.svg" alt="" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-12 col-lg-6 mb-5 mt-5">
-        <p class="fs-3">scale(1.5, 0.5);</p>
-        <div class="transform-animation transform-animation--scale">
-          <img src="assets/images/servers.svg" alt="" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-12 col-lg-6 mb-5 mt-5">
-        <p class="fs-3">rotate(-20deg);</p>
-        <div class="transform-animation transform-animation--rotate">
-          <img src="assets/images/servers.svg" alt="" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-12 col-lg-6 mb-5 mt-5">
-        <p class="fs-3">skew(10deg, 10deg);</p>
-        <div class="transform-animation transform-animation--skew">
-          <img src="assets/images/servers.svg" alt="" class="img-fluid">
-        </div>
-      </div>
-    </div>
+  <div class="container-fluid mt-5 d-flex justify-content-center">
+    <p class="fs-3 bg-primary p-2 text-white" style="box-shadow: -10px -10px 10px red, 10px 10px 10px blue;">Flex</p>
+  </div>
+
+  <div class="container-fluid mt-5" style="max-width: 125px; margin: 0 auto;">
+    <p class="fs-3 bg-secondary p-2 text-white" style="box-shadow: inset -5px -5px 15px #1E88E5, inset 5px 5px 15px #00BCD4;">margin</p>
+  </div>
+
+  <div class="container-fluid mt-5" style="display: grid;">
+    <p class="fs-3 bg-success p-2 text-white" style="place-self: center;">grid</p>
+  </div>
+
+  <div class="container-fluid mt-5 text-center">
+    <p class="fs-3 bg-danger p-2 text-white d-inline">text-align</p>
+  </div>
+
+  <div class="container-fluid mt-5 position-relative" style="height: 58px;">
+    <p class="fs-3 bg-warning p-2 position-absolute" style="left: 50%; transform: translate(-50%, 0);">position</p>
   </div>
 
   <div class="scroll-up">
