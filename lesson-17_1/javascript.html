@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript | Lesson-17_1</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-custom">
+    <nav class="navbar navbar-expand-lg bg-custom-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/brand.png" alt="Logo" width="110" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animation.html">Animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript.html">Javascript</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row d-flex">
+            <div class="col-12 col-sm-6 col-md-3 bg-primary">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count1"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 bg-secondary">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count2"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 bg-warning">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count3"></div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 bg-info">
+                <div class="fs-1 text-light p-5 animate__animated animate__zoomIn" id="count4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 d-flex flex-column align-items-end mb-500 wow animate__animated animate__backInRight">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-start mb-500 wow animate__animated animate__backInLeft" data-wow-offset="100">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-end mb-500 wow animate__animated animate__shakeX" data-wow-iteration="10">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-start mb-500 wow animate__animated animate__jello" data-delay="2s">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-column align-items-end mb-500 wow animate__animated animate__flipInX" data-duration="1s">
+                <p class="fs-3">Wow.js and Animate.css</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-start mb-500" data-aos="fade-up">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-end mb-500" data-aos="fade-down">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-start mb-500" data-aos="fade-right">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-end mb-500" data-aos="fade-left">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-start mb-500" data-aos="flip-left">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column align-items-end" data-aos="flip-right">
+                <p class="fs-3">Aos.js</p>
+                <div class="transform-animation">
+                  <img src="assets/images/servers.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-up">
+        <span class="scroll-up-btn"></span>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery-3.6.1.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        new WOW().init();
+        AOS.init();
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WZF15NX96"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WZF15NX96');
+    </script>
+</body>
+
+</html>
