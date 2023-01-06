@@ -1,42 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitemap</title>
+    <title>Lemon School</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background: rgb(228, 218, 218);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .title {
+            margin: 30px 10px 50px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(to right, #b92b27, #1565c0);
+            text-align: center;
+            color: #fff;
+            border: 3px solid #fff;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            width: 25%;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            border: 3px solid #fff;
+            margin: 0 10px 0 10px;
+            display: block;
+            background: linear-gradient(to left, #f12711, #f5af19);
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            font-size: 25px;
+            transition: box-shadow .5s, color .1s, background .5s, border-color .5s;
+        }
+
+        .button:hover {
+            box-shadow: 10px 10px 10px rgba(87, 197, 44, 0.199);
+            color: #000;
+            background: #fff;
+            border-color: #f5af19;
+        }
+
+        @media only screen and (max-width: 991px){
+            .col {
+                width: 100%;
+            }
+
+            .title {
+                font-size: 30px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-    <div class="container mt-5">
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-1">Lesson 1</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-2">Lesson 2</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-3">Lesson 3</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-4">Lesson 4</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-5">Lesson 5</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-6/flex.html">Lesson 6</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-6_1">Lesson 6.1</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-7">Lesson 7</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-7_1">Lesson 7.1</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-8/fonts.html">Lesson 8</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-9/main-tags.html">Lesson 9</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-10/bootstrap-page.html">Lesson 10</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-11">Lesson 11</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-11_1/faq.html">Lesson 11_1</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="test-lemon">Test-Lemon</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-12/form.html">Lesson-12</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-12_1/">Lesson-12_1</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-13/animation.html">Lesson-13</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-14/javascript.html">Lesson-14</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-14_1">Lesson-14_1</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-15">Lesson-15</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-16">Lesson-16</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-17">Lesson-17</a>
-        <a class="mb-3 btn btn-primary" target="_blank" href="lesson-17_1">Lesson-17_1</a>
+    <div class="container">
+        <div class="title">Lemon School</div>
+
+        <div class="row">
+            <div class="col">
+                <a href="lesson-1" class="button" target="_blank">Lesson 1</a>
+            </div>
+            <div class="col">
+                <a href="lesson-2" class="button" target="_blank">Lesson 2</a>
+            </div>
+            <div class="col">
+                <a href="lesson-3" class="button" target="_blank">Lesson 3</a>
+            </div>
+            <div class="col">
+                <a href="lesson-4" class="button" target="_blank">Lesson 4</a>
+            </div>
+            <div class="col">
+                <a href="lesson-5" class="button" target="_blank">Lesson 5</a>
+            </div>
+            <div class="col">
+                <a href="lesson-6/flex.html" class="button" target="_blank">Lesson 6</a>
+            </div>
+            <div class="col">
+                <a href="lesson-6_1" class="button" target="_blank">Lesson 6.1</a>
+            </div>
+            <div class="col">
+                <a href="lesson-7" class="button" target="_blank">Lesson 7</a>
+            </div>
+            <div class="col">
+                <a href="lesson-7_1" class="button" target="_blank">Lesson 7.1</a>
+            </div>
+            <div class="col">
+                <a href="lesson-8/fonts.html" class="button" target="_blank">Lesson 8</a>
+            </div>
+            <div class="col">
+                <a href="lesson-9/main-tags.html" class="button" target="_blank">Lesson 9</a>
+            </div>
+            <div class="col">
+                <a href="lesson-10/bootstrap-page.html" class="button" target="_blank">Lesson 10</a>
+            </div>
+            <div class="col">
+                <a href="lesson-11" class="button" target="_blank">Lesson 11</a>
+            </div>
+            <div class="col">
+                <a href="lesson-11_1/faq.html" class="button" target="_blank">Lesson 11.1</a>
+            </div>
+            <div class="col">
+                <a href="test-lemon" class="button" target="_blank">Test-Lemon</a>
+            </div>
+            <div class="col">
+                <a href="lesson-12/form.html" class="button" target="_blank">Lesson-12</a>
+            </div>
+            <div class="col">
+                <a href="lesson-12_1" class="button" target="_blank">Lesson-12.1</a>
+            </div>
+            <div class="col">
+                <a href="lesson-13/animation.html" class="button" target="_blank">Lesson-13</a>
+            </div>
+            <div class="col">
+                <a href="lesson-14/javascript.html" class="button" target="_blank">Lesson-14</a>
+            </div>
+            <div class="col">
+                <a href="lesson-14_1" class="button" target="_blank">Lesson-14.1</a>
+            </div>
+            <div class="col">
+                <a href="lesson-15" class="button" target="_blank">Lesson-15</a>
+            </div>
+            <div class="col">
+                <a href="lesson-16" class="button" target="_blank">Lesson-16</a>
+            </div>
+            <div class="col">
+                <a href="lesson-17" class="button" target="_blank">Lesson-17</a>
+            </div>
+            <div class="col">
+                <a href="lesson-17_1/centered.html" class="button" target="_blank">Lesson-17.1</a>
+            </div>
+        </div>
     </div>
 
     <!-- Google tag (gtag.js) -->
@@ -52,5 +172,4 @@
         gtag('config', 'G-7WZF15NX96');
     </script>
 </body>
-
 </html>
