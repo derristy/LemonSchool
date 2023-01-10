@@ -5,7 +5,7 @@ $(document).ready(() => {
         dots: true,
         autoplay: true,
         responsive: [{
-            breakpoint: 576,
+            breakpoint: 992,
             settings: {
                 arrows: false
             }
@@ -30,7 +30,9 @@ $(document).ready(() => {
               breakpoint: 992,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
               }
             },
             {
