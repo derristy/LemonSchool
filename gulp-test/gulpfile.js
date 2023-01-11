@@ -148,7 +148,7 @@ gulp.task('svgstore', function (callback) {
 });
 
 gulp.task('clean', function () {
-    return del([ // стираем
+    return del([
         dirs.build + '/**/*',
         '!' + dirs.build + '/readme.md'
     ]);
