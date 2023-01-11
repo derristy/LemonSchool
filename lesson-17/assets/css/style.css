@@ -376,6 +376,29 @@
     margin-bottom: 23px;
 }
 
+.custom-checkbox {
+    width: 24px;
+    height: 24px;
+    background: var(--color-white);
+    border: 1px solid #282B38;
+    border-radius: 4px;
+    position: relative;
+}
+
+.custom-checkbox:before {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: url("../images/checkbox.svg");
+    transition: opacity .1s;
+}
+
+input:checked + .custom-checkbox:before {
+    opacity: 1;
+}
+
 .btn-upload {
     color: var(--color-white);
     width: 100%;
@@ -508,6 +531,8 @@
     line-height: 124.5%;
     color: var(--color-white);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .advantages .slick-dots {
@@ -606,6 +631,8 @@
     color: var(--color-white);
     font-size: 17px;
     line-height: 26px;
+    max-width: 523px;
+    margin: 0 auto;
 }
 
 .txt-content ul li {
@@ -648,6 +675,7 @@
     color: var(--color-white);
     font-size: 14px;
     line-height: 162.5%;
+    max-width: 263px;
 }
 
 .footer-contacts a {
