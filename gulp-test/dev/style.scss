@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color .5s;
+    margin-right: 10px;
+
+    &:hover {
+        color: #000;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+main {
+    background: #00796B;
+
+    &:hover {
+        background: #1a9183;
+    }
+}
+
+footer {
+    background: #1E88E5;
+
+    &:hover {
+        background: #2276c0;
+    }
+}
+
+header, main, footer {
+    padding: 30px 15px;
+    font-size: 40px;
+    transition: background .5s;
+    color: #fff;
+}

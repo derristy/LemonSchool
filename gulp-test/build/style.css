@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background: #FFC107;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+  margin-right: 10px;
+}
+a:hover {
+  color: #000;
+}
+a:last-child {
+  margin-right: 0;
+}
+
+main {
+  background: #00796B;
+}
+main:hover {
+  background: #1a9183;
+}
+
+footer {
+  background: #1E88E5;
+}
+footer:hover {
+  background: #2276c0;
+}
+
+header, main, footer {
+  padding: 30px 15px;
+  font-size: 40px;
+  transition: background 0.5s;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
