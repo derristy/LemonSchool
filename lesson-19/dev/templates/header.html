@@ -8,7 +8,7 @@
   <title>@@title | Lesson-19</title>
 
   <link rel="stylesheet" href="assets/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-custom.css">@@if (context.page_id === "form"){<link rel="stylesheet" href="assets/css/nice-select.css"><link rel="stylesheet" href="assets/css/form.css">}@@if (context.page_id === "javascript"){<link rel="stylesheet" href="assets/css/animate.min.css"><link rel="stylesheet" href="assets/css/aos.css">}@@if (context.page_id === "grid"){<link rel="stylesheet" href="assets/css/grid.css">}
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 
@@ -25,28 +25,31 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "home"){ active}" href="index.html">Home</a>
+            <a class="nav-link@@if(context.page_id === "home"){ active}" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "faq"){ active}" href="faq.html">FAQ</a>
+            <a class="nav-link@@if(context.page_id === "faq"){ active}" href="faq.html">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "product"){ active}" href="product.html">Product</a>
+            <a class="nav-link@@if(context.page_id === "product"){ active}" href="product.html">Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "form"){ active}" href="form.html">Form</a>
+            <a class="nav-link@@if(context.page_id === "form"){ active}" href="form.html">Form</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "animation"){ active}" href="animation.html">Animation</a>
+            <a class="nav-link@@if(context.page_id === "animation"){ active}" href="animation.html">Animation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "javascript"){ active}" href="javascript.html">Javascript</a>
+            <a class="nav-link@@if(context.page_id === "javascript"){ active}" href="javascript.html">Javascript</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "centered"){ active}" href="centered.html">Centered</a>
+            <a class="nav-link@@if(context.page_id === "centered"){ active}" href="centered.html">Centered</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link@@if(context.nav_link === "grid"){ active}" href="grid.html">Grid</a>
+            <a class="nav-link@@if(context.page_id === "grid"){ active}" href="grid.html">Grid</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link@@if(context.page_id === "paper"){ active}" href="paper.html">PaperCSS</a>
           </li>
         </ul>
       </div>

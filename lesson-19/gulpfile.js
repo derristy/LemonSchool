@@ -55,8 +55,8 @@ gulp.task('html', function() {
 
 gulp.task('img', function () {
     return gulp.src([
-        dirs.source + '/assets/img/*.{gif,png,jpg,jpeg,svg,ico}',
-        dirs.source + '/assets/img/**/*.{gif,png,jpg,jpeg,svg,ico}',
+        dirs.source + '/assets/img/*.{gif,png,jpg,jpeg,svg,ico,webp}',
+        dirs.source + '/assets/img/**/*.{gif,png,jpg,jpeg,svg,ico,webp}',
     ],
         {since: gulp.lastRun('img')}
     )
@@ -67,8 +67,8 @@ gulp.task('img', function () {
 
 gulp.task('images', function () {
     return gulp.src([
-        dirs.source + '/assets/images/*.{gif,png,jpg,jpeg,svg,ico}',
-        dirs.source + '/assets/images/**/*.{gif,png,jpg,jpeg,svg,ico}',
+        dirs.source + '/assets/images/*.{gif,png,jpg,jpeg,svg,ico,webp}',
+        dirs.source + '/assets/images/**/*.{gif,png,jpg,jpeg,svg,ico,webp}',
     ],
         {since: gulp.lastRun('img')}
     )
