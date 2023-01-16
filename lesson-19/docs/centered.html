@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered | Lesson-19</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-custom">
+    <nav class="navbar navbar-expand-lg bg-custom-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/brand.png" alt="Logo" width="110" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animation.html">Animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript.html">Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="centered.html">Centered</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="grid.html">Grid</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid mt-5 d-flex justify-content-center">
+        <p class="fs-3 bg-primary p-2 text-white" style="box-shadow: -10px -10px 10px red, 10px 10px 10px blue;">Flex</p>
+    </div>
+
+    <div class="container-fluid mt-5" style="max-width: 125px; margin: 0 auto;">
+        <p class="fs-3 bg-secondary p-2 text-white" style="box-shadow: inset -5px -5px 15px #1E88E5, inset 5px 5px 15px #00BCD4;">margin</p>
+    </div>
+
+    <div class="container-fluid mt-5" style="display: grid;">
+        <p class="fs-3 bg-success p-2 text-white" style="place-self: center;">grid</p>
+    </div>
+
+    <div class="container-fluid mt-5 text-center">
+        <p class="fs-3 bg-danger p-2 text-white d-inline">text-align</p>
+    </div>
+
+    <div class="container-fluid mt-5 position-relative" style="height: 58px;">
+        <p class="fs-3 bg-warning p-2 position-absolute" style="left: 50%; transform: translate(-50%, 0);">position</p>
+    </div>
+    <div class="scroll-up">
+        <span class="scroll-up-btn"></span>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery-3.6.1.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WZF15NX96"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WZF15NX96');
+    </script>
+</body>
+
+</html>

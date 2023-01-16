@@ -1,0 +1,21 @@
+@@include("templates/header.html", {"title":"Centered", "nav_link":"centered"})
+  <div class="container-fluid mt-5 d-flex justify-content-center">
+    <p class="fs-3 bg-primary p-2 text-white" style="box-shadow: -10px -10px 10px red, 10px 10px 10px blue;">Flex</p>
+  </div>
+
+  <div class="container-fluid mt-5" style="max-width: 125px; margin: 0 auto;">
+    <p class="fs-3 bg-secondary p-2 text-white" style="box-shadow: inset -5px -5px 15px #1E88E5, inset 5px 5px 15px #00BCD4;">margin</p>
+  </div>
+
+  <div class="container-fluid mt-5" style="display: grid;">
+    <p class="fs-3 bg-success p-2 text-white" style="place-self: center;">grid</p>
+  </div>
+
+  <div class="container-fluid mt-5 text-center">
+    <p class="fs-3 bg-danger p-2 text-white d-inline">text-align</p>
+  </div>
+
+  <div class="container-fluid mt-5 position-relative" style="height: 58px;">
+    <p class="fs-3 bg-warning p-2 position-absolute" style="left: 50%; transform: translate(-50%, 0);">position</p>
+  </div>
+@@include("templates/footer.html")

@@ -1,0 +1,51 @@
+@@include("templates/header.html", {"title":"Animation", "nav_link":"animation"})
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <ul class="social-icons">
+          <li class="social-icons__item facebook"></li>
+          <li class="social-icons__item google"></li>
+          <li class="social-icons__item linkedin"></li>
+          <li class="social-icons__item pinterest"></li>
+          <li class="social-icons__item skype"></li>
+          <li class="social-icons__item twitter"></li>
+          <li class="social-icons__item youtube"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-6 mb-5 mt-5">
+        <div class="cat-sprite-y"></div>
+      </div>
+      <div class="col-12 col-lg-6 mb-5 mt-5">
+        <div class="monster-sprite-x"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-lg-6 mb-5 mt-5">
+        <p class="fs-3">translate(-100px, 0);</p>
+        <div class="transform-animation transform-animation--translate">
+          <img src="assets/images/servers.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mb-5 mt-5">
+        <p class="fs-3">scale(1.5, 0.5);</p>
+        <div class="transform-animation transform-animation--scale">
+          <img src="assets/images/servers.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mb-5 mt-5">
+        <p class="fs-3">rotate(-20deg);</p>
+        <div class="transform-animation transform-animation--rotate">
+          <img src="assets/images/servers.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mb-5 mt-5">
+        <p class="fs-3">skew(10deg, 10deg);</p>
+        <div class="transform-animation transform-animation--skew">
+          <img src="assets/images/servers.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+@@include("templates/footer.html")

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Lesson-19</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-custom">
+    <nav class="navbar navbar-expand-lg bg-custom-blue">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/brand.png" alt="Logo" width="110" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="form.html">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animation.html">Animation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript.html">Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="centered.html">Centered</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="grid.html">Grid</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="timer" class="d-flex justify-content-center row">
+            <div id="days" class="bg-primary p-4 fs-1 fw-bold text-light col-12 col-sm-6 col-md-3"></div>
+            <div id="hours" class="bg-secondary p-4 fs-1 fw-bold text-light col-12 col-sm-6 col-md-3"></div>
+            <div id="minutes" class="bg-info p-4 fs-1 fw-bold text-light col-12 col-sm-6 col-md-3"></div>
+            <div id="seconds" class="bg-warning p-4 fs-1 fw-bold text-light col-12 col-sm-6 col-md-3"></div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="bg-parallax p-3">
+            <form action="#" class="form-custom" method="GET">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <label for="username" class="text-light fs-3 fw-bold mb-2">Username:</label>
+                        <input class="form-control p-2 fs-5" type="text" id="username" name="username" placeholder="Enter your name">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="phone" class="text-light fs-3 fw-bold mb-2">Phone:</label>
+                        <input class="form-control p-2 fs-5" type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="col-6 mb-3">
+                        <button type="submit" class="btn btn-primary w-100">Send</button>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <button type="button" class="btn btn-secondary w-100">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="bg-parallax p-3 mt-5 mb-5">
+            <form action="#" class="form-custom" method="GET">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <label for="nice-select" class="text-light fs-3 fw-bold mb-2">Nice-select:</label>
+                        <select class="w-100" type="text" id="nice-select" name="nice-select">
+                            <option value="apache">Apache</option>
+                            <option value="nginx">Nginx</option>
+                            <option value="litespeed">Litespeed</option>
+                            <option value="lighttpd">Lighttpd</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="textarea" class="text-light fs-3 fw-bold mb-2">Textarea:</label>
+                        <textarea class="w-100" name="" id="textarea" cols="30" rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus iusto dolor natus ad harum commodi eaque, in veritatis quidem accusantium rerum minima officia? Unde amet consectetur aut, voluptatum modi deserunt quod corporis, tempora veniam eum obcaecati numquam illo autem ducimus blanditiis, voluptates quibusdam officiis. Nam eum et iste! Libero quis, odit, vitae corporis qui officiis esse omnis repudiandae asperiores magnam ea laudantium labore, quos rerum facilis numquam voluptatem. Quis tempora quia unde cumque delectus nostrum quasi in, dolorem nam! Amet ea ipsa voluptatem earum voluptas tenetur totam vitae. Amet magnam error sapiente fugiat natus necessitatibus facilis in est doloremque laborum?</textarea>
+                    </div>
+                    <div class="col-12 mb-3 text-light fs-5">
+                        <p class="text-light fs-3 fw-bold mb-2">Checkbox:</p>
+                        <label for="checkbox-apache">Apache</label>
+                        <input id="checkbox-apache" type="checkbox">
+
+                        <label for="checkbox-nginx">Nginx</label>
+                        <input id="checkbox-nginx" type="checkbox">
+
+                        <label for="checkbox-litespeed">Litespeed</label>
+                        <input id="checkbox-litespeed" type="checkbox">
+                    </div>
+                    <div class="col-12 mb-3 text-light fs-5">
+                        <p class="text-light fs-3 fw-bold mb-2">Radio:</p>
+                        <label for="radio-apache">Apache</label>
+                        <input id="radio-apache" name="webserver" type="radio">
+
+                        <label for="radio-nginx">Nginx</label>
+                        <input id="radio-nginx" name="webserver" type="radio">
+
+                        <label for="radio-litespeed">Litespeed</label>
+                        <input id="radio-litespeed" name="webserver" type="radio">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-color" class="text-light fs-3 fw-bold mb-2">Color:</label>
+                        <input type="color" class="d-block" id="label-color">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-date" class="text-light fs-3 fw-bold mb-2">Date:</label>
+                        <input type="date" id="label-date" class="d-block">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-email" class="text-light fs-3 fw-bold mb-2">Email:</label>
+                        <input type="email" id="label-email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-password" class="text-light fs-3 fw-bold mb-2">Password:</label>
+                        <input type="password" id="label-password" class="form-control" placeholder="Enter your password">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-image" class="text-light fs-3 fw-bold mb-2">Image:</label>
+                        <input type="image" id="label-image" class="d-block" src="assets/images/brand.png">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-number" class="text-light fs-3 fw-bold mb-2">Number:</label>
+                        <input type="number" id="label-number" class="form-control" placeholder="Enter number">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-range" class="text-light fs-3 fw-bold mb-2">Range:</label>
+                        <input type="range" id="label-range" class="d-block">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-search" class="text-light fs-3 fw-bold mb-2">Search:</label>
+                        <input type="search" id="label-search" class="d-block" placeholder="Search form">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-time" class="text-light fs-3 fw-bold mb-2">Time:</label>
+                        <input type="time" id="label-time" class="d-block">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="label-url" class="text-light fs-3 fw-bold mb-2">URL:</label>
+                        <input type="url" id="label-url" class="d-block" placeholder="https://ls.derristy.ml">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="file-upload-input" class="text-light fs-3 fw-bold mb-2">File:</label>
+                        <div class="d-flex">
+                            <button class="file-upload-btn" type="button">Choose file</button>
+                            <div class="file-upload-name">No file chosen</div>
+                            <input type="file" id="file-upload-input">
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <label for="label-week" class="text-light fs-3 fw-bold mb-2">Week:</label>
+                        <input type="week" id="label-week" class="d-block">
+                    </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="submit" class="btn btn-primary" value="Submit button">
+                </div>
+                <div class="col-12 mb-3">
+                    <input type="reset" class="btn btn-warning" value="Reset button">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="scroll-up">
+        <span class="scroll-up-btn"></span>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery-3.6.1.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WZF15NX96"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WZF15NX96');
+    </script>
+</body>
+
+</html>

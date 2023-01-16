@@ -1,0 +1,41 @@
+@@include("templates/header.html", {"title":"Grid", "nav_link":"grid"})
+  <div class="container-fluid mt-5 mb-5">
+
+    <p class="fs-3 mt-3">grid-template-columns: 100px auto 100px;</p>
+    <div class="d-grid grid-template-columns">
+      <div class="bg-primary text-center text-white">1</div>
+      <div class="bg-secondary text-center text-white">2</div>
+      <div class="bg-warning text-center text-white">3</div>
+    </div>
+
+    <p class="fs-3 mt-3">grid-template-rows: 100px auto 100px;</p>
+    <div class="d-grid grid-template-rows">
+      <div class="bg-primary text-center text-white">1</div>
+      <div class="bg-secondary text-center text-white">2</div>
+      <div class="bg-warning text-center text-white">3</div>
+    </div>
+
+    <p class="fs-3 mt-3">grid-template-columns: 100px auto 100px; column-gap: 50px;</p>
+    <div class="d-grid grid-template-columns column-gap">
+      <div class="bg-primary text-center text-white">1</div>
+      <div class="bg-secondary text-center text-white">2</div>
+      <div class="bg-warning text-center text-white">3</div>
+    </div>
+
+    <p class="fs-3 mt-3">grid-template-rows: 100px auto 100px; row-gap: 50px;</p>
+    <div class="d-grid grid-template-rows row-gap">
+      <div class="bg-primary text-center text-white">1</div>
+      <div class="bg-secondary text-center text-white">2</div>
+      <div class="bg-warning text-center text-white">3</div>
+    </div>
+
+    <p class="fs-3 mt-3">grid-template-areas</p>
+    <div class="d-grid grid-template-areas">
+      <div class="bg-primary grid-area-header p-5 fs-5 text-center text-white">header</div>
+      <div class="bg-secondary grid-area-sidebar p-5 fs-5 text-center text-white">sidebar</div>
+      <div class="bg-warning grid-area-content p-5 fs-5 text-center text-white">content</div>
+      <div class="bg-info grid-area-footer p-5 fs-5 text-center text-white">footer</div>
+    </div>
+
+  </div>
+@@include("templates/footer.html")
