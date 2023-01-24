@@ -43,4 +43,10 @@ phone_dropdown__main.addEventListener("click", () => {
     phone_dropdown__btn.classList.toggle("active");
     phone_dropdown__content.classList.toggle("active");
     border_example.classList.toggle("active");
+
+    if(border_example.classList.contains("active")){
+        border_example.style = "background:rgb(145, 57, 57);";
+    } else {
+        border_example.style = "";
+    }
 });

@@ -81,10 +81,6 @@ a {
     background: transparent;
     transition: background .5s;
     border: 3px solid rgb(153, 145, 145);
-
-    &.active {
-        background:rgb(145, 57, 57);
-    }
 }
 
 .modal {

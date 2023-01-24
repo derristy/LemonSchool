@@ -76,9 +76,6 @@ a {
   transition: background 0.5s;
   border: 3px solid rgb(153, 145, 145);
 }
-.border-example.active {
-  background: rgb(145, 57, 57);
-}
 
 .modal {
   position: fixed;
