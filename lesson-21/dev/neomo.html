@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neomo</title>
+
+    <link rel="stylesheet" href="assets/css/neomo.min.css">
+</head>
+<body>
+    <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+    </ul>
+
+    <div class="container mt-5">
+        <div class="alert outset-neomo" role="alert">This is alert!</div>
+    </div>
+
+    <div class="container mt-5">
+        <nav class="breadcrumb outset-neomo p-1">
+            <ul>
+                <li>
+                <a href="#">
+                    <span>Neomo</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <span>Documentation</span>
+                </a>
+                </li>
+                <li>
+                <a href="#">
+                    <span>Components</span>
+                </a>
+                </li>
+                <li class="is-active">
+                <a href="#" aria-current="page">
+                    <span>Breadcrumb</span>
+                </a>
+                </li>
+            </ul>
+        </nav>          
+    </div>
+
+    <div class="container mt-5">
+    <button class="button outset m-10">default Button</button>
+    <button class="button outset square m-10">Square Button</button>
+    </div>
+    <div class="container neomo">
+    <button class="button outset-neomo m-10">Neomo Button</button>
+    <button class="button outset-neomo square blue m-10">
+        Neomo Square Button
+    </button>
+    </div>
+    <div class="container gray">
+    <button class="button outset-gray m-10">Gray Button</button>
+    <button class="button outset-gray square m-10">Gray Square Button</button>
+    </div>
+    <div class="container dark">
+    <button class="button outset-dark m-10">Dark Button</button>
+    <button class="button outset-dark square m-10">Dark Square Button</button>
+    </div>
+
+    <div class="container mt-5">
+        <div class="dropdown">
+        <button class="dropdown-button outset-neomo">
+            Dropdown
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">HTML</a>
+            <a href="#">CSS</a>
+            <a href="#">JAVA</a>
+            <a href="#">C++</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <button data-modal-id="modal1" class="modal-button outset-neomo">MODAL Button</button>
+        <div data-modal-id="modal1" class="modal">
+        <div class="modal-content--md outset-neomo">
+            <span class="modal-close">&times;</span>
+            <p>You can insert any type of content with this modal class.</p>
+        </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <ul class="pagination">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#" class="active">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">Next</a></li>
+        </ul>
+    </div>
+
+    <div class="container mt-5">
+        <span>success</span>
+        <div class="progress outset-neomo">
+        <div class="progress-bar success width-3"></div>
+        </div>
+        <span>info</span>
+        <div class="progress outset-neomo">
+        <div class="progress-bar info width-4"></div>
+        </div>
+        <span>danger</span>
+        <div class="progress outset-neomo">
+        <div class="progress-bar danger width-5"></div>
+        </div>
+        <span>dark</span>
+        <div class="progress outset-neomo">
+        <div class="progress-bar dark width-6"></div>
+        </div>
+        <span>gray</span>
+        <div class="progress outset-neomo">
+        <div class="progress-bar gray width-7"></div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <select class="outset-neomo">
+        <option selected>This is select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        </select>
+    </div>
+
+    <div class="container mt-5">
+        <div class="tab">
+        <ul class="tab-list">
+            <li><a id="tab-1" class="current">tab1</a></li>
+            <li><a id="tab-2">tab2</a></li>
+            <li><a id="tab-3">tab3</a></li>
+        </ul>
+        <ul class="tab-content outset-neomo">
+            <li id="content-1" class="tab-content--list">
+            <div class="tab-content--title">title1</div>
+            <div class="tab-content--text">
+                You can insert any type of content with this tab class.
+            </div>
+            </li>
+            <li id="content-2" class="tab-content--list">
+            <div class="tab-content--title">title2</div>
+            <div class="tab-content--text">
+                You can insert any type of content with this tab class.
+            </div>
+            </li>
+            <li id="content-3" class="tab-content--list">
+            <div class="tab-content--title">title3</div>
+            <div class="tab-content--text">
+                You can insert any type of content with this tab class.
+            </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <script src="assets/js/neomo.min.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WZF15NX96"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WZF15NX96');
+    </script>
+</body>
+</html>
