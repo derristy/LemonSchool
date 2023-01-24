@@ -1,0 +1,23 @@
+@media (max-width: 991px){
+    .header {
+        max-height: 100vh;
+        overflow: auto;
+    }
+
+    .navbar {
+        &-menu {
+            display: none;
+            flex-basis: 100%;
+            justify-content: center;
+            flex-direction: column;
+
+            &__item {
+                padding: 10px 0;
+            }
+        }
+
+        &-burger {
+            display: flex;
+        }
+    }
+}

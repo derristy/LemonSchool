@@ -10,13 +10,12 @@
     padding: 20px 0;
 
     &-menu {
-        display: none;
-        flex-direction: column;
+        display: flex;
         align-items: center;
-        flex: 1 1 100%;
 
         &__item {
             display: block;
+            padding: 0 10px;
         }
 
         &__link {
@@ -30,10 +29,11 @@
     }
 
     &-burger {
+        display: none;
         padding: 10px 20px;
 
         &__item {
-            display: block;
+            display: flex;
             width: 30px;
             height: 2px;
             background: $color-white;
