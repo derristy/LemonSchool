@@ -41,7 +41,7 @@
         </div>
     </header>
     <main>
-        <div class="container mt">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="phone-dropdown">
@@ -59,12 +59,36 @@
                 <div class="col">
                     <div class="border-example"></div>
                 </div>
+                <div class="col">
+                    <button class="btn" onclick='modalShow("modal-one")'>Modal one</button>
+                    <button class="btn" onclick='modalShow("modal-two")'>Modal two</button>
+                </div>
             </div>
 
         </div>
     </main>
 
     <script src="assets/js/app.js"></script>
+
+    <div class="modal hide" id="modal-one">
+        <div class="modal-dialog">
+            <div class="modal-title">Modal one</div>
+            <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui aperiam esse consequuntur ullam. Numquam, quaerat ad vero alias laudantium nam voluptatem tenetur quae enim dolore accusantium consequuntur nobis commodi?</div>
+            <div class="modal-footer">
+                <button class="modal-button" onclick='modalClose("modal-one");'>Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal hide" id="modal-two">
+        <div class="modal-dialog">
+            <div class="modal-title">Modal two</div>
+            <div class="modal-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui aperiam esse consequuntur ullam. Numquam, quaerat ad vero alias laudantium nam voluptatem tenetur quae enim dolore accusantium consequuntur nobis commodi?</div>
+            <div class="modal-footer">
+                <button class="modal-button" onclick='modalClose("modal-two");'>Close</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 
