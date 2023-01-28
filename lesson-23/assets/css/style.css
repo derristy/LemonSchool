@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: #BDD7E8;
+}
+
+.svg {
+    width: 100%;
+    height: 100vh;
+}
+
+.floor {
+    fill: transparent;
+    stroke: transparent;
+}
+
+.floor:hover {
+    fill: #1e88e56e;
+    stroke: #283593;
+}
