@@ -6,16 +6,45 @@
 
 body {
     background: #BDD7E8;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-svg {
-    width: 100%;
+
+.svg-wrapper {
+    position: relative;
+}
+
+.svg {
     height: 100vh;
 }
 
+.build-info {
+    background: #628aa5;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.build-info span {
+    color: rgb(117, 59, 59);
+    font-size: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
 .floor {
-    fill: transparent;
-    stroke: transparent;
+    fill: #303f9f83;
+    stroke: #311B92;
+    opacity: 0;
+}
+
+.floor:hover {
+    opacity: 1;
 }
 
 .floor.fill {
