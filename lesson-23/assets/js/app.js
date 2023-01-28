@@ -1,15 +1,17 @@
 const floor = document.querySelectorAll(".floor");
-let floors = document.querySelector(".floors span");
-let rooms = document.querySelector(".rooms span");
 
 floor.forEach(element => {
     element.addEventListener("mouseover", () => {
-        floors.innerHTML = element.getAttribute("data-floors");
-        rooms.innerHTML = element.getAttribute("data-rooms");
+        let floors_id = document.querySelector(element.getAttribute("data-floors-id"));
+        let rooms_id = document.querySelector(element.getAttribute("data-rooms-id"));
+        floors_id.innerHTML = element.getAttribute("data-floors");
+        rooms_id.innerHTML = element.getAttribute("data-rooms");
     });
 
     element.addEventListener("mouseout", () => {
-        floors.innerHTML = 0;
-        rooms.innerHTML = 0;
+        let floors_id = document.querySelector(element.getAttribute("data-floors-id"));
+        let rooms_id = document.querySelector(element.getAttribute("data-rooms-id"));
+        floors_id.innerHTML = 0;
+        rooms_id.innerHTML = 0;
     });
 });
