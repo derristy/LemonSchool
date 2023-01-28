@@ -8,12 +8,17 @@ body {
     background: #BDD7E8;
 }
 
+svg {
+    width: 100%;
+    height: 100vh;
+}
+
 .floor {
     fill: transparent;
     stroke: transparent;
 }
 
-.floor:hover {
+.floor.fill {
     fill: #303f9f83;
     stroke: #311B92;
 }
