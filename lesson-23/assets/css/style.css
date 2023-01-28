@@ -9,13 +9,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
-.svg-wrapper {
-    position: relative;
-}
-
-.svg {
-    height: 100vh;
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .build-info {
@@ -23,11 +20,9 @@ body {
     padding: 10px;
     border-radius: 5px;
     margin: 20px 0;
-    position: absolute;
-    top: 10px;
-    left: 10px;
     color: #fff;
     font-size: 20px;
+    display: inline-block;
 }
 
 .build-info span {
@@ -35,6 +30,12 @@ body {
     font-size: 30px;
     width: 30px;
     display: inline-block;
+}
+
+.svg {
+    height: 80vh;
+    display: block;
+    flex-basis: 100%;
 }
 
 .floor {
