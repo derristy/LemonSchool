@@ -46,8 +46,3 @@ body {
 .floor:hover {
     opacity: 1;
 }
-
-.floor.fill {
-    fill: #303f9f83;
-    stroke: #311B92;
-}
