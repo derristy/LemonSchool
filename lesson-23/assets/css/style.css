@@ -5,16 +5,15 @@
 }
 
 body {
-    overflow: hidden;
     background: #BDD7E8;
 }
 
 .floor {
-    fill: #1e88e56e;
-    stroke: #283593;
-    cursor: pointer;
+    fill: transparent;
+    stroke: transparent;
 }
 
 .floor:hover {
-    fill: red;
+    fill: #303f9f83;
+    stroke: #311B92;
 }
