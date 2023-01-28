@@ -16,4 +16,5 @@ body {
 
 .floor:hover {
     fill: red;
+    cursor: pointer;
 }
