@@ -10,10 +10,11 @@ body {
 }
 
 .floor {
-    fill: #1e88e500;
+    fill: #1e88e56e;
+    stroke: #283593;
+    opacity: 0;
 }
 
 .floor:hover {
-    fill: #1e88e56e;
-    stroke: #283593;
+    opacity: 1;
 }
