@@ -50,6 +50,6 @@ body {
 
 @media (max-width: 991px){
     .svg {
-        height: auto;
+        height: 100%;
     }
 }
