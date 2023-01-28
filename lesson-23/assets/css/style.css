@@ -11,9 +11,9 @@ body {
 
 .wrapper {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
-    position: relative;
 }
 
 .build-info {
@@ -23,10 +23,6 @@ body {
     margin: 20px 0;
     color: #fff;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translate(0, -50%);
 }
 
 .build-info span {
@@ -38,7 +34,7 @@ body {
 
 .svg {
     flex-basis: 100%;
-    height: 100vh;
+    height: 85vh;
 }
 
 .floor {
@@ -49,4 +45,10 @@ body {
 
 .floor:hover {
     opacity: 1;
+}
+
+@media (max-width: 991px){
+    .svg {
+        height: auto;
+    }
 }
