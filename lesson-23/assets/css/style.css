@@ -12,9 +12,9 @@ body {
 .floor {
     fill: #1e88e56e;
     stroke: #283593;
+    cursor: pointer;
 }
 
 .floor:hover {
     fill: red;
-    cursor: pointer;
 }
