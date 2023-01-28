@@ -12,9 +12,4 @@ body {
 .floor {
     fill: #1e88e56e;
     stroke: #283593;
-    opacity: 0;
-}
-
-.floor:hover {
-    opacity: 1;
 }
