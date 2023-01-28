@@ -9,11 +9,6 @@ body {
     background: #BDD7E8;
 }
 
-.svg {
-    width: 100%;
-    height: 100vh;
-}
-
 .floor {
     fill: #1e88e500;
     stroke: #28349300;
