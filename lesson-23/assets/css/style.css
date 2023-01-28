@@ -15,8 +15,8 @@ body {
 }
 
 .floor {
-    fill: transparent;
-    stroke: transparent;
+    fill: #1e88e500;
+    stroke: #28349300;
 }
 
 .floor:hover {
