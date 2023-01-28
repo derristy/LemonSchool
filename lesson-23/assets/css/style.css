@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #BDD7E8;
+    background: #E0E0E0;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -17,8 +17,8 @@ body {
 }
 
 .build-info {
-    background: #628aa5;
-    padding: 10px;
+    background: #E64A19;
+    padding: 10px 30px;
     border-radius: 5px;
     margin: 20px 0;
     color: #fff;
@@ -26,7 +26,7 @@ body {
 }
 
 .build-info span {
-    color: rgb(117, 59, 59);
+    color: rgb(32, 24, 24);
     font-size: 30px;
     width: 60px;
     display: inline-block;
@@ -38,9 +38,10 @@ body {
 }
 
 .floor {
-    fill: #303f9f83;
-    stroke: #311B92;
+    fill: #2195f362;
+    stroke: #8C9EFF;
     opacity: 0;
+    cursor: pointer;
 }
 
 .floor:hover {
